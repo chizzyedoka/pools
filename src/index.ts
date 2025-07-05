@@ -6,7 +6,13 @@ import {
   ORCA_WHIRLPOOLS_CONFIG,
   WhirlpoolContext,
   ORCA_WHIRLPOOL_PROGRAM_ID,
+  WhirlpoolIx,
+  toTx,
+  ORCA_WHIRLPOOLS_CONFIG_ECLIPSE,
+  increaseLiquidityQuoteByInputToken,
+  TokenExtensionUtil,
 } from "@orca-so/whirlpools-sdk";
+import { Percentage } from "@orca-so/common-sdk";
 
 import {
   Connection,
@@ -19,10 +25,13 @@ import {
 import { NATIVE_MINT } from "@solana/spl-token";
 
 import Decimal from "decimal.js";
+import bs58 from "bs58";
+import dotenv from "dotenv";
 
 const ETH_MINT = NATIVE_MINT;
-const USDC_MINT = new PublicKey("CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm");
-const TICK_SPACING = 64;
+const USDT_MINT = new PublicKey("CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm");
+const TICK_SPACING_ARRAY = []
+const TICK_SPACING = 32;
 
 // Initialize connection and wallet
 const connection = new Connection(
@@ -30,14 +39,41 @@ const connection = new Connection(
   "confirmed"
 );
 
+// Load environment variables
+dotenv.config();
+// Ensure WALLET_PRIVATE_KEY is set in your .env file
+const secret_key = process.env.WALLET_PRIVATE_KEY;
+if (!secret_key) {
+  throw new Error("WALLET_PRIVATE_KEY not found in .env file");
+}
+// decode base58 secret key
+const secretKeyBase58 = bs58.decode(secret_key);
+const keypair = Keypair.fromSecretKey(secretKeyBase58);
+
 const wallet = {
-  publicKey: Keypair.generate().publicKey,
+  publicKey: keypair.publicKey,
   signTransaction: async <T extends Transaction | VersionedTransaction>(
     tx: T
-  ): Promise<T> => tx,
+  ): Promise<T> => {
+    if (tx instanceof Transaction) {
+      tx.sign(keypair);
+    } else if (tx instanceof VersionedTransaction) {
+      tx.sign([keypair]);
+    }
+    return tx;
+  },
   signAllTransactions: async <T extends Transaction | VersionedTransaction>(
     txs: T[]
-  ): Promise<T[]> => txs,
+  ): Promise<T[]> => {
+    return txs.map(tx => {
+      if (tx instanceof Transaction) {
+        tx.sign(keypair);
+      } else if (tx instanceof VersionedTransaction) {
+        tx.sign([keypair]);
+      }
+      return tx;
+    });
+  },
 };
 
 // 1. Setup Whirlpool Context
@@ -49,13 +85,15 @@ const ctx = WhirlpoolContext.from(
 const fetcher = ctx.fetcher;
 
 async function main() {
+    // fetch tick array spacing
+    
   try {
     // 2. Derive the Whirlpool Pool Address
     const poolAddress = PDAUtil.getWhirlpool(
       ORCA_WHIRLPOOL_PROGRAM_ID,
-      ORCA_WHIRLPOOLS_CONFIG,
+      ORCA_WHIRLPOOLS_CONFIG_ECLIPSE,
       ETH_MINT,
-      USDC_MINT,
+      USDT_MINT,
       TICK_SPACING
     );
 
@@ -63,7 +101,10 @@ async function main() {
 
     // 3. Load the pool
     const client = buildWhirlpoolClient(ctx);
+    // console.log(client)
     const pool = await client.getPool(poolAddress.publicKey);
+    console.log(`pool is ${pool}`)
+    console.log("Pool loaded:", poolAddress.publicKey.toBase58());
 
     const poolData = pool.getData();
     const poolTokenAInfo = pool.getTokenAInfo();
@@ -73,17 +114,23 @@ async function main() {
     console.log("Token A:", poolTokenAInfo.mint.toBase58());
     console.log("Token B:", poolTokenBInfo.mint.toBase58());
 
-    // 4. Define tick range for price between 98 and 150
+    // // 4. Define tick range for price between 
     const tokenADecimal = poolTokenAInfo.decimals;
     const tokenBDecimal = poolTokenBInfo.decimals;
+    console.log("Token A decimals:", tokenADecimal);
+    console.log("Token B decimals:", tokenBDecimal);
+
+     // check pool current price
+    const currentPrice = PriceMath.sqrtPriceX64ToPrice(poolData.sqrtPrice, tokenADecimal, tokenBDecimal);
+    console.log("Current pool price:", currentPrice.toString());
 
     const lowerTick = TickUtil.getInitializableTickIndex(
-      PriceMath.priceToTickIndex(new Decimal(98), tokenADecimal, tokenBDecimal),
+      PriceMath.priceToTickIndex(new Decimal(2400), tokenADecimal, tokenBDecimal),
       poolData.tickSpacing
     );
     const upperTick = TickUtil.getInitializableTickIndex(
       PriceMath.priceToTickIndex(
-        new Decimal(150),
+        new Decimal(2800),
         tokenADecimal,
         tokenBDecimal
       ),
@@ -128,14 +175,28 @@ async function main() {
       upperTickArrayPda.publicKey.toBase58()
     );
 
-    // 7. Check if tick arrays exist
+    // 7. Check if tick arrays exist and initialize if needed
     try {
       const lowerTickArray = await fetcher.getTickArray(
         lowerTickArrayPda.publicKey
       );
       console.log("Lower tick array exists:", !!lowerTickArray);
     } catch (error) {
-      console.log("Lower tick array does not exist yet");
+      console.log("Lower tick array does not exist yet - initializing...");
+      // Initialize the lower tick array
+      const initLowerTickArrayTx = toTx(
+        ctx,
+        WhirlpoolIx.initTickArrayIx(ctx.program, {
+          startTick: lowerTickArrayStartTick,
+          tickArrayPda: lowerTickArrayPda,
+          whirlpool: poolAddress.publicKey,
+          funder: ctx.wallet.publicKey,
+        })
+      );
+
+      console.log("Executing lower tick array initialization...");
+      const lowerTxId = await initLowerTickArrayTx.buildAndExecute();
+      console.log("Lower tick array initialized:", lowerTxId);
     }
 
     try {
@@ -144,21 +205,68 @@ async function main() {
       );
       console.log("Upper tick array exists:", !!upperTickArray);
     } catch (error) {
-      console.log("Upper tick array does not exist yet");
-    }
+      console.log("Upper tick array does not exist yet - initializing...");
+      // Initialize the upper tick array
+      const initUpperTickArrayTx = toTx(
+        ctx,
+        WhirlpoolIx.initTickArrayIx(ctx.program, {
+          startTick: upperTickArrayStartTick,
+          tickArrayPda: upperTickArrayPda,
+          whirlpool: poolAddress.publicKey,
+          funder: ctx.wallet.publicKey,
+        })
+      );
 
-    // 8. Prepare for position opening
-    console.log("\n=== Position Opening Setup Complete ===");
-    console.log("Pool:", poolAddress.publicKey.toBase58());
-    console.log("Price range: $98 - $150");
-    console.log("Lower tick:", lowerTick);
-    console.log("Upper tick:", upperTick);
-    console.log("\nTo open a position, you would:");
-    console.log("1. Initialize tick arrays if needed");
-    console.log(
-      "2. Call pool.openPosition() with tick range and liquidity quote"
-    );
-    console.log("3. Execute the transaction");
+      console.log("Executing upper tick array initialization...");
+      const upperTxId = await initUpperTickArrayTx.buildAndExecute();
+      console.log("Upper tick array initialized:", upperTxId);
+    }
+   // 9. Create a liquidity quote for your $2 worth of tokens
+const inputTokenAmount = new Decimal(0.001); // Small amount of ETH (~$2.58 worth)
+const slippageTolerance = Percentage.fromDecimal(new Decimal(0.01)); // 1% slippage
+//const slippageTolerance = new Decimal(0.01); // 1% slippage
+
+const tokenExtensionCtx = await TokenExtensionUtil.buildTokenExtensionContext(
+  fetcher,
+  poolData
+);
+
+// Create the liquidity quote using the input token amount
+const quote = increaseLiquidityQuoteByInputToken(
+  poolTokenAInfo.mint, // ETH mint
+  inputTokenAmount,
+  lowerTick,
+  upperTick,
+  slippageTolerance,
+  pool,
+  tokenExtensionCtx
+);
+
+console.log("Liquidity quote:");
+console.log("Token A max:", quote.tokenMaxA.toString());
+console.log("Token B max:", quote.tokenMaxB.toString());
+console.log("Estimated liquidity:", quote.liquidityAmount.toString());
+
+// 10. Open position with liquidity
+console.log("\n=== Opening Position ===");
+const { positionMint, tx } = await pool.openPosition(
+  lowerTick,
+  upperTick,
+  quote
+);
+
+console.log("Position mint address:", positionMint.toBase58());
+console.log("Executing position opening transaction...");
+
+// Execute the transaction
+const txId = await tx.buildAndExecute();
+console.log("Position opened! Transaction ID:", txId);
+
+// 11. Get the position account for verification
+const positionPda = PDAUtil.getPosition(ORCA_WHIRLPOOL_PROGRAM_ID, positionMint);
+console.log("Position PDA:", positionPda.publicKey.toBase58());
+
+console.log("\n Position successfully created!");
   } catch (error) {
     console.error("Error in main:", error);
   }
@@ -175,7 +283,7 @@ async function openPositionExample() {
       ORCA_WHIRLPOOL_PROGRAM_ID,
       ORCA_WHIRLPOOLS_CONFIG,
       ETH_MINT,
-      USDC_MINT,
+      USDT_MINT,
       TICK_SPACING
     );
 
