@@ -7,7 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start": "ts-node dist/index.js",
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "discover": "ts-node src/pool-discovery.ts",
+    "discover-enhanced": "ts-node src/enhanced-pool-discovery.ts",
+    "discover-modular": "ts-node src/pool-discovery-modular.ts"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +19,7 @@
     "ts-node": "^10.9.2"
   },
   "dependencies": {
+    "@deserialize/swap-sdk": "^1.5.22",
     "@orca-so/whirlpools-sdk": "^0.14.0",
     "@solana/spl-token": "^0.4.13",
     "@solana/web3.js": "^1.98.2",
