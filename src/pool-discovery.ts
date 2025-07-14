@@ -17,7 +17,8 @@ import {
   GetProgramAccountsFilter,
 } from "@solana/web3.js";
 
-import { NATIVE_MINT } from "@solana/spl-token";
+import { getMint, NATIVE_MINT } from "@solana/spl-token";
+import { Metaplex } from "@metaplex-foundation/js";
 import Decimal from "decimal.js";
 import bs58 from "bs58";
 import dotenv from "dotenv";
@@ -32,15 +33,15 @@ const connection = new Connection(
 );
 
 // Setup wallet (read-only for discovery)
-const secret_key = process.env.WALLET_PRIVATE_KEY;
-if (!secret_key) {
-  throw new Error("WALLET_PRIVATE_KEY not found in .env file");
-}
-const secretKeyBase58 = bs58.decode(secret_key);
-const keypair = Keypair.fromSecretKey(secretKeyBase58);
+// const secret_key = process.env.WALLET_PRIVATE_KEY;
+// if (!secret_key) {
+//   throw new Error("WALLET_PRIVATE_KEY not found in .env file");
+// }
+// const secretKeyBase58 = bs58.decode(secret_key);
+// const keypair = Keypair.fromSecretKey(secretKeyBase58);
 
 const wallet = {
-  publicKey: keypair.publicKey,
+  publicKey: Keypair.generate().publicKey,
   signTransaction: async <T extends Transaction | VersionedTransaction>(
     tx: T
   ): Promise<T> => tx,
@@ -70,7 +71,7 @@ interface PoolInfo {
 }
 
 interface TokenInfo {
-  mint: string;
+  mint: PublicKey;
   symbol: string;
   name: string;
   decimals: number;
@@ -82,48 +83,44 @@ interface TokenInfo {
 
 // const tokens = await sdk.tokenList()
 // Common token registry for Eclipse (you can expand this)
-const KNOWN_TOKENS: Record<string, TokenInfo> = {
-  [NATIVE_MINT.toBase58()]: {
-    mint: NATIVE_MINT.toBase58(),
-    symbol: "ETH",
-    name: "Ethereum",
-    decimals: 9,
-  },
-  CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm: {
-    mint: "CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm",
-    symbol: "USDT",
-    name: "Tether USD",
-    decimals: 6,
-  },
-  // Add more known tokens here as you discover them
-};
 
 // need to work on this, ask Zach for help
-async function getTokenInfo(mint: string): Promise<TokenInfo> {
-  // Check if we have this token in our registry
-  if (KNOWN_TOKENS[mint]) {
-    return KNOWN_TOKENS[mint];
+async function getTokenInfo(
+  mint: PublicKey,
+  tokenProgramId: PublicKey
+): Promise<TokenInfo> {
+  const metaplex = Metaplex.make(connection);
+  let tokenName;
+  let tokenSymbol;
+  let tokenLogo;
+
+  const metadataAccount = metaplex.nfts().pdas().metadata({ mint });
+
+  const metadataAccountInfo = await connection.getAccountInfo(metadataAccount);
+
+  if (metadataAccountInfo) {
+    const token = await metaplex.nfts().findByMint({ mintAddress: mint });
+    tokenName = token.name;
+    tokenSymbol = token.symbol;
+    tokenLogo = token.json?.image || "";
   }
 
+  const tokenMIntDetails = await getMint(
+    connection,
+    mint,
+    "confirmed",
+    tokenProgramId
+  );
   // Try to fetch token metadata (this might not work for all tokens)
-  try {
-    // For unknown tokens, we'll use placeholder info
-    return {
-      mint,
-      symbol: `TOKEN_${mint.slice(0, 4)}`,
-      name: `Unknown Token ${mint.slice(0, 8)}`,
-      decimals: 9, // Default assumption
-    };
-  } catch (error) {
-    return {
-      mint,
-      symbol: `UNK_${mint.slice(0, 4)}`,
-      name: "Unknown Token",
-      decimals: 9,
-    };
-  }
-}
 
+  // For unknown tokens, we'll use placeholder info
+  return {
+    mint: tokenMIntDetails.address,
+    symbol: tokenSymbol!,
+    name: tokenName!,
+    decimals: 9, // Default assumption
+  };
+}
 async function getAllWhirlpools(): Promise<PoolInfo[]> {
   console.log("Discovering all Whirlpool pools on Eclipse...");
 
@@ -168,8 +165,16 @@ async function getAllWhirlpools(): Promise<PoolInfo[]> {
         console.log(`Token B:`, tokenBInfo);
 
         // Get token metadata
-        const tokenA = await getTokenInfo(tokenAInfo.mint.toBase58());
-        const tokenB = await getTokenInfo(tokenBInfo.mint.toBase58());
+        const tokenA = await getTokenInfo(
+          tokenAInfo.mint,
+          tokenAInfo.tokenProgram
+        );
+        const tokenB = await getTokenInfo(
+          tokenBInfo.mint,
+          tokenAInfo.tokenProgram
+        );
+        console.log(`Token A Metadata:`, tokenA);
+        console.log(`Token B Metadata:`, tokenB);
 
         // Calculate current price
         const currentPrice = PriceMath.sqrtPriceX64ToPrice(
@@ -304,7 +309,7 @@ async function main() {
 }
 
 // Export for use in other scripts
-export { getAllWhirlpools, PoolInfo, TokenInfo };
+export { getAllWhirlpools };
 
 // Run if this file is executed directly
 if (require.main === module) {

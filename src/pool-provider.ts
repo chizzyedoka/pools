@@ -12,17 +12,22 @@ import {
   WhirlpoolContext,
 } from "@orca-so/whirlpools-sdk";
 import { Percentage } from "@orca-so/common-sdk";
-import { PublicKey } from "@solana/web3.js";
+import {
+  PublicKey,
+  Signer,
+  Transaction,
+  TransactionInstruction,
+  TransactionMessage,
+  VersionedMessage,
+  VersionedTransaction,
+} from "@solana/web3.js";
 import Decimal from "decimal.js";
 
 export interface PoolProviderParams {
-  tokenAMint: PublicKey;
-  tokenBMint: PublicKey;
   inputTokenAmount: Decimal; // Amount of the input token to provide
-  inputTokenMint: PublicKey; // Which token the amount refers to (tokenA or tokenB)
   lowerPrice: Decimal; // Lower bound of the price range
   upperPrice: Decimal; // Upper bound of the price range
-  tickSpacing: number; // Tick spacing for the pool
+  poolAddress: PublicKey;
   slippagePercentage?: Decimal; // Optional slippage tolerance (default 1%)
 }
 
@@ -39,33 +44,25 @@ export interface PoolProviderResult {
 export async function providePoolLiquidity(
   ctx: WhirlpoolContext,
   params: PoolProviderParams
-): Promise<PoolProviderResult> {
+) {
+  // : Promise<PoolProviderResult>
+
   const {
-    tokenAMint,
-    tokenBMint,
     inputTokenAmount,
-    inputTokenMint,
     lowerPrice,
     upperPrice,
-    tickSpacing,
+    poolAddress,
     slippagePercentage = new Decimal(0.01), // Default 1% slippage
   } = params;
 
   try {
     // 1. Derive the Whirlpool Pool Address
-    const poolAddress = PDAUtil.getWhirlpool(
-      ORCA_WHIRLPOOL_PROGRAM_ID,
-      ORCA_WHIRLPOOLS_CONFIG_ECLIPSE,
-      tokenAMint,
-      tokenBMint,
-      tickSpacing
-    );
 
-    console.log("Pool address derived:", poolAddress.publicKey.toBase58());
+    console.log("Pool address derived:", poolAddress.toBase58());
 
     // 2. Load the pool
     const client = buildWhirlpoolClient(ctx);
-    const pool = await client.getPool(poolAddress.publicKey);
+    const pool = await client.getPool(poolAddress);
     const poolData = pool.getData();
     const poolTokenAInfo = pool.getTokenAInfo();
     const poolTokenBInfo = pool.getTokenBInfo();
@@ -90,15 +87,17 @@ export async function providePoolLiquidity(
 
     console.log("Lower tick:", lowerTick);
     console.log("Upper tick:", upperTick);
-
+    let inxs: TransactionInstruction[] = [];
     // 5. Initialize tick arrays if needed
-    await initializeTickArraysIfNeeded(
+    const tickInstructions = await initializeTickArraysIfNeeded(
       ctx,
-      poolAddress.publicKey,
+      poolAddress,
       lowerTick,
       upperTick,
       poolData.tickSpacing
     );
+
+    inxs.push(...tickInstructions);
 
     // 6. Create token extension context
     const tokenExtensionCtx =
@@ -110,7 +109,7 @@ export async function providePoolLiquidity(
     // 7. Create liquidity quote
     const slippageTolerance = Percentage.fromDecimal(slippagePercentage);
     const quote = increaseLiquidityQuoteByInputToken(
-      inputTokenMint,
+      poolTokenAInfo.mint,
       inputTokenAmount,
       lowerTick,
       upperTick,
@@ -119,7 +118,7 @@ export async function providePoolLiquidity(
       tokenExtensionCtx
     );
 
-    console.log("Liquidity quote:");
+    console.log("Liquidity quote:", quote);
     console.log("Token A max:", quote.tokenMaxA.toString());
     console.log("Token B max:", quote.tokenMaxB.toString());
     console.log("Estimated liquidity:", quote.liquidityAmount.toString());
@@ -136,24 +135,37 @@ export async function providePoolLiquidity(
     console.log("Executing position opening transaction...");
 
     // 9. Execute the transaction
-    const txId = await tx.buildAndExecute();
-    console.log("Position opened! Transaction ID:", txId);
+    // const trxBuilder = tx.addInstructions(tickInstructions);
+    const latestBlockhash = await ctx.connection.getLatestBlockhash();
+    const trx = tx.buildSync({
+      maxSupportedTransactionVersion: 0,
+      latestBlockhash: latestBlockhash,
+      blockhashCommitment: "confirmed",
+      computeBudgetOption: { type: "none" },
+    });
+
+    const transaction = trx.transaction;
+    let positionInstructions: TransactionInstruction[] = [];
+    if (transaction instanceof Transaction) {
+      //get the instructions from the transaction
+      positionInstructions = transaction.instructions;
+    } else {
+      positionInstructions = TransactionMessage.decompile(
+        (transaction as VersionedTransaction).message
+      ).instructions;
+    }
+
+    // Combine tick initialization instructions with position instructions
+    inxs.push(...positionInstructions);
 
     // 10. Get the position account address
     const positionPda = PDAUtil.getPosition(
       ORCA_WHIRLPOOL_PROGRAM_ID,
       positionMint
     );
+    console.log(inxs);
 
-    return {
-      transactionHash: txId,
-      positionMint: positionMint.toBase58(),
-      positionAddress: positionPda.publicKey.toBase58(),
-      poolAddress: poolAddress.publicKey.toBase58(),
-      liquidityAmount: quote.liquidityAmount.toString(),
-      tokenAAmount: quote.tokenMaxA.toString(),
-      tokenBAmount: quote.tokenMaxB.toString(),
-    };
+    return { inxs };
   } catch (error) {
     console.error("Error providing pool liquidity:", error);
     throw error;
@@ -166,8 +178,11 @@ async function initializeTickArraysIfNeeded(
   lowerTick: number,
   upperTick: number,
   tickSpacing: number
-): Promise<void> {
+) {
   const fetcher = ctx.fetcher;
+
+  const tickInstructions: TransactionInstruction[] = [];
+  const signers: Signer[] = [];
 
   // Get tick array start indices
   const lowerTickArrayStartTick = TickUtil.getStartTickIndex(
@@ -194,45 +209,61 @@ async function initializeTickArraysIfNeeded(
 
   // Check and initialize lower tick array if needed
   try {
-    await fetcher.getTickArray(lowerTickArrayPda.publicKey);
-    console.log("Lower tick array exists");
+    const accountInfo = await ctx.connection.getAccountInfo(
+      lowerTickArrayPda.publicKey
+    );
+    if (!accountInfo || !accountInfo.owner.equals(ORCA_WHIRLPOOL_PROGRAM_ID)) {
+      throw new Error("Tick array not properly initialized");
+    }
+    console.log("Lower tick array exists and is properly initialized");
   } catch (error) {
     console.log("Initializing lower tick array...");
-    const initLowerTickArrayTx = toTx(
-      ctx,
-      WhirlpoolIx.initTickArrayIx(ctx.program, {
-        startTick: lowerTickArrayStartTick,
-        tickArrayPda: lowerTickArrayPda,
-        whirlpool: poolPublicKey,
-        funder: ctx.wallet.publicKey,
-      })
+    const OrcaInx = WhirlpoolIx.initTickArrayIx(ctx.program, {
+      startTick: lowerTickArrayStartTick,
+      tickArrayPda: lowerTickArrayPda,
+      whirlpool: poolPublicKey,
+      funder: ctx.wallet.publicKey,
+    });
+    tickInstructions.push(
+      ...OrcaInx.instructions,
+      ...OrcaInx.cleanupInstructions
     );
-
-    const lowerTxId = await initLowerTickArrayTx.buildAndExecute();
-    console.log("Lower tick array initialized:", lowerTxId);
+    signers.push(...OrcaInx.signers);
   }
 
   // Check and initialize upper tick array if needed (only if different from lower)
   if (upperTickArrayStartTick !== lowerTickArrayStartTick) {
     try {
-      await fetcher.getTickArray(upperTickArrayPda.publicKey);
-      console.log("Upper tick array exists");
+      const accountInfo = await ctx.connection.getAccountInfo(
+        upperTickArrayPda.publicKey
+      );
+      if (
+        !accountInfo ||
+        !accountInfo.owner.equals(ORCA_WHIRLPOOL_PROGRAM_ID)
+      ) {
+        throw new Error("Tick array not properly initialized");
+      }
+      console.log("Upper tick array exists and is properly initialized");
     } catch (error) {
       console.log("Initializing upper tick array...");
-      const initUpperTickArrayTx = toTx(
-        ctx,
-        WhirlpoolIx.initTickArrayIx(ctx.program, {
-          startTick: upperTickArrayStartTick,
-          tickArrayPda: upperTickArrayPda,
-          whirlpool: poolPublicKey,
-          funder: ctx.wallet.publicKey,
-        })
+      const orcaUpperInx = WhirlpoolIx.initTickArrayIx(ctx.program, {
+        startTick: upperTickArrayStartTick,
+        tickArrayPda: upperTickArrayPda,
+        whirlpool: poolPublicKey,
+        funder: ctx.wallet.publicKey,
+      });
+      tickInstructions.push(
+        ...orcaUpperInx.instructions,
+        ...orcaUpperInx.cleanupInstructions
       );
+      signers.push(...orcaUpperInx.signers);
 
-      const upperTxId = await initUpperTickArrayTx.buildAndExecute();
-      console.log("Upper tick array initialized:", upperTxId);
+      //   const upperTxId = await initUpperTickArrayTx.buildAndExecute();
+      //   console.log("Upper tick array initialized:", upperTxId);
     }
   }
+
+  return tickInstructions;
 }
 
 // Helper function to get current pool price

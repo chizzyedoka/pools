@@ -1,0 +1,4347 @@
+[
+  {
+    "address": "4mEv6cuodbjPiHJBXoehFuynQUU8JQShecRGcmjcfzci",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "1075178213",
+    "sqrtPrice": "18135015317830780",
+    "tickCurrentIndex": -138503,
+    "protocolFeeOwedA": "12196499823",
+    "protocolFeeOwedB": "62176",
+    "tokenMintA": "6G61dR9rbcGW4btoLFFFDtebUV8J8LmAobnvvzhdf4Vf",
+    "tokenVaultA": "3Mud5fmauoWPj3ah7LQCaomjejyq2GTnrxAxxgW3u4sT",
+    "feeGrowthGlobalA": "1877970541208933042038",
+    "tokenMintB": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultB": "4oBtgncfizjsvLRuTYvPG5EnS6jV35rmjFjH3DT57eoE",
+    "feeGrowthGlobalB": "168685713430297013",
+    "rewardLastUpdatedTimestamp": "2025-07-10T02:02:29Z",
+    "updatedAt": "2025-07-10T02:02:41.860824Z",
+    "updatedSlot": 82971202,
+    "writeVersion": 50596761496,
+    "hasWarning": false,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "6G61dR9rbcGW4btoLFFFDtebUV8J8LmAobnvvzhdf4Vf",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fassets.geckoterminal.com%2Ffomueixhul2q4pats2ax2gfpzk2k&w=32&q=75",
+      "name": "Turbo AI",
+      "symbol": "TURBO",
+      "decimals": 6,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.000000966487871686777800",
+    "tvlUsdc": "1.55834800",
+    "yieldOverTvl": "0.0877291443575129",
+    "tokenBalanceA": "1179040872698",
+    "tokenBalanceB": "1558348",
+    "stats": {
+      "24h": {
+        "volume": "13.6712536651241000",
+        "fees": "0.1367125366512410",
+        "rewards": null,
+        "yieldOverTvl": "0.0877291443575129"
+      },
+      "7d": {
+        "volume": "14.3003736651241000",
+        "fees": "0.1430037366512410",
+        "rewards": null,
+        "yieldOverTvl": "0.0917662400511577"
+      },
+      "30d": {
+        "volume": "98.9575246651239000",
+        "fees": "0.9895752466512390",
+        "rewards": null,
+        "yieldOverTvl": "0.6350155720360530"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 3202.1138,
+    "apy": 2138352266961750.5
+  },
+  {
+    "address": "DFQ3xBQRpHH34vnADzSh36aZ2ACzLfAZxUmmL8KVb883",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "6380308259872",
+    "sqrtPrice": "18578188135975568722",
+    "tickCurrentIndex": 142,
+    "protocolFeeOwedA": "37340113186",
+    "protocolFeeOwedB": "17614053180",
+    "tokenMintA": "LaihKXA47apnS599tyEyasY2REfEzBNe4heunANhsMx",
+    "tokenVaultA": "DwzAxkAUrTahgMxvWoKkLTftEfYuumwyS45NuUS431jp",
+    "feeGrowthGlobalA": "11096950157087180314",
+    "tokenMintB": "6G61dR9rbcGW4btoLFFFDtebUV8J8LmAobnvvzhdf4Vf",
+    "tokenVaultB": "E2sMoUZBWNshGia4CVTYpJKYNrs5x7J3XWYwzi47Pvvp",
+    "feeGrowthGlobalB": "544856043444257884",
+    "rewardLastUpdatedTimestamp": "2025-07-10T04:46:44Z",
+    "updatedAt": "2025-07-10T04:46:56.861270Z",
+    "updatedSlot": 82998587,
+    "writeVersion": 50600392849,
+    "hasWarning": false,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "LaihKXA47apnS599tyEyasY2REfEzBNe4heunANhsMx",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://jbevm2tvx2k3a5ozok3ahhhtri6mwrpv4tmqqqoe6qsxykik22uq.arweave.net/SElWanW-lbB12XK2A5zzijzLRfXk2QhBxPQlfCkK1qk",
+      "name": "Laika",
+      "symbol": "LAIKA",
+      "decimals": 5,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "6G61dR9rbcGW4btoLFFFDtebUV8J8LmAobnvvzhdf4Vf",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fassets.geckoterminal.com%2Ffomueixhul2q4pats2ax2gfpzk2k&w=32&q=75",
+      "name": "Turbo AI",
+      "symbol": "TURBO",
+      "decimals": 6,
+      "tags": []
+    },
+    "price": "0.10143019679180016000",
+    "tvlUsdc": "8.5099112880647369876859719008",
+    "yieldOverTvl": "0.0229152342339440",
+    "tokenBalanceA": "8762845269987",
+    "tokenBalanceB": "6610636257320",
+    "stats": {
+      "24h": {
+        "volume": "19.5006610476087000",
+        "fees": "0.1950066104760870",
+        "rewards": null,
+        "yieldOverTvl": "0.0229152342339440"
+      },
+      "7d": {
+        "volume": "32.2789659992811000",
+        "fees": "0.3227896599928110",
+        "rewards": null,
+        "yieldOverTvl": "0.0379310252558717"
+      },
+      "30d": {
+        "volume": "72.0994196604474000",
+        "fees": "0.7209941966044740",
+        "rewards": null,
+        "yieldOverTvl": "0.0847240555392954"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 836.406,
+    "apy": 390265.1186
+  },
+  {
+    "address": "9cBrskWCoRheAy57zxXKFqachuRyjLp8hHt6tZt4v5Km",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "91901397294",
+    "sqrtPrice": "31743812144689123199715",
+    "tickCurrentIndex": 149018,
+    "protocolFeeOwedA": "625896",
+    "protocolFeeOwedB": "512955538519",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "DgPmFhxjp9xKNYu1v4uwrri2F7iA9tCBuJouwjUo61um",
+    "feeGrowthGlobalA": "22531676420661269",
+    "tokenMintB": "6G61dR9rbcGW4btoLFFFDtebUV8J8LmAobnvvzhdf4Vf",
+    "tokenVaultB": "6CP8WCMxERfErfnz7aHN4phQYRSbHBumwLkoSSus2v6Y",
+    "feeGrowthGlobalB": "466606456209151552156",
+    "rewardLastUpdatedTimestamp": "2025-07-10T08:44:53Z",
+    "updatedAt": "2025-07-10T08:45:05.872237Z",
+    "updatedSlot": 83038302,
+    "writeVersion": 50605115990,
+    "hasWarning": false,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "6G61dR9rbcGW4btoLFFFDtebUV8J8LmAobnvvzhdf4Vf",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fassets.geckoterminal.com%2Ffomueixhul2q4pats2ax2gfpzk2k&w=32&q=75",
+      "name": "Turbo AI",
+      "symbol": "TURBO",
+      "decimals": 6,
+      "tags": []
+    },
+    "price": "2961274833.5897040764162000",
+    "tvlUsdc": "178.8126579656727631500355953000",
+    "yieldOverTvl": "0.0135002365043084",
+    "tokenBalanceA": "64328815",
+    "tokenBalanceB": "161846442922792",
+    "stats": {
+      "24h": {
+        "volume": "241.401317250058",
+        "fees": "2.4140131725005800",
+        "rewards": null,
+        "yieldOverTvl": "0.0135002365043084"
+      },
+      "7d": {
+        "volume": "275.883105375582",
+        "fees": "2.7588310537558200",
+        "rewards": null,
+        "yieldOverTvl": "0.0154286116270664"
+      },
+      "30d": {
+        "volume": "3831.382847513670",
+        "fees": "38.3138284751367000",
+        "rewards": null,
+        "yieldOverTvl": "0.2142679881336590"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 492.7586,
+    "apy": 13256.936
+  },
+  {
+    "address": "6g6yNiaytsCWLGk1ygYvFpKbZqSkCc7rnEtCxfoeHZHH",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 64,
+    "tickSpacingSeed": [
+      64,
+      0
+    ],
+    "feeRate": 6500,
+    "protocolFeeRate": 1300,
+    "liquidity": "17531324547",
+    "sqrtPrice": "32485218125824750207561",
+    "tickCurrentIndex": 149480,
+    "protocolFeeOwedA": "10877",
+    "protocolFeeOwedB": "26784359631",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "CnkBKtFCMmGTCedKUQtN2dPqrvnkp4ckiLyxm2oyomh9",
+    "feeGrowthGlobalA": "114351364644242",
+    "tokenMintB": "6G61dR9rbcGW4btoLFFFDtebUV8J8LmAobnvvzhdf4Vf",
+    "tokenVaultB": "4x1724KryegvsrbKn27YDw5VTmW3vyNhwHftxA3Uzxmv",
+    "feeGrowthGlobalB": "193324249501888913092",
+    "rewardLastUpdatedTimestamp": "2025-07-10T01:56:46Z",
+    "updatedAt": "2025-07-10T01:56:58.350757Z",
+    "updatedSlot": 82970245,
+    "writeVersion": 50596639693,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "6G61dR9rbcGW4btoLFFFDtebUV8J8LmAobnvvzhdf4Vf",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://www.geckoterminal.com/_next/image?url=https%3A%2F%2Fassets.geckoterminal.com%2Ffomueixhul2q4pats2ax2gfpzk2k&w=32&q=75",
+      "name": "Turbo AI",
+      "symbol": "TURBO",
+      "decimals": 6,
+      "tags": []
+    },
+    "price": "3101216810.7070909806649000",
+    "tvlUsdc": "27.926846046631419901283143",
+    "yieldOverTvl": "0.0131325285658012",
+    "tokenBalanceA": "10046833",
+    "tokenBalanceB": "31083473751689",
+    "stats": {
+      "24h": {
+        "volume": "56.4230928400183000",
+        "fees": "0.3667501034601190",
+        "rewards": null,
+        "yieldOverTvl": "0.0131325285658012"
+      },
+      "7d": {
+        "volume": "63.1720146557563000",
+        "fees": "0.4106180952624160",
+        "rewards": null,
+        "yieldOverTvl": "0.0147033465424910"
+      },
+      "30d": {
+        "volume": "147.635805892779",
+        "fees": "0.9596327383030640",
+        "rewards": null,
+        "yieldOverTvl": "0.0343623743512138"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 64,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 479.3373,
+    "apy": 11599.9686
+  },
+  {
+    "address": "6KvrP7P18toeu7PGGLwyHmTrAYnp4DdxM7fjpxucwXpZ",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      249
+    ],
+    "tickSpacing": 256,
+    "tickSpacingSeed": [
+      0,
+      1
+    ],
+    "feeRate": 20000,
+    "protocolFeeRate": 1300,
+    "liquidity": "883781872349",
+    "sqrtPrice": "2474709588281599384652",
+    "tickCurrentIndex": 97984,
+    "protocolFeeOwedA": "4604016",
+    "protocolFeeOwedB": "83178670186",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "9fWWFCzCnxmPEi1c4rCthHiRojEPBpnDFjTdV71WcZPH",
+    "feeGrowthGlobalA": "125267568981211906",
+    "tokenMintB": "64mggk2nXg6vHC1qCdsZdEFzd5QGN4id54Vbho4PswCF",
+    "tokenVaultB": "F9ncSk37PvwhfZ6rqHmffsXCmnm6iT4jLioUmg2uJemm",
+    "feeGrowthGlobalB": "893547018850390682190",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:18:30Z",
+    "updatedAt": "2025-07-10T09:18:42.372424Z",
+    "updatedSlot": 83043909,
+    "writeVersion": 50605846691,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "64mggk2nXg6vHC1qCdsZdEFzd5QGN4id54Vbho4PswCF",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://powpow.app/assets/icon.png",
+      "name": "BITZ",
+      "symbol": "BITZ",
+      "decimals": 11,
+      "tags": []
+    },
+    "price": "179.97369660226275654400",
+    "tvlUsdc": "8325.1973943167083845472172891660",
+    "yieldOverTvl": "0.00547723770301708000",
+    "tokenBalanceA": "1201546255",
+    "tokenBalanceB": "33233709284462",
+    "stats": {
+      "24h": {
+        "volume": "2279.954252660550",
+        "fees": "45.5990850532111000",
+        "rewards": null,
+        "yieldOverTvl": "0.00548288671461156000"
+      },
+      "7d": {
+        "volume": "112384.853253874000",
+        "fees": "2247.697065077490",
+        "rewards": null,
+        "yieldOverTvl": "0.2702656941954780"
+      },
+      "30d": {
+        "volume": "644843.59734690",
+        "fees": "12896.871946938000",
+        "rewards": null,
+        "yieldOverTvl": "1.5507347960029600"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 256,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 200.1254,
+    "apy": 635.7994
+  },
+  {
+    "address": "CUzwQT8ZThYuKCerH3SpNu12eyxB4tAU3d19snjhELWU",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      253
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "588069096722",
+    "sqrtPrice": "2478447432527018981021",
+    "tickCurrentIndex": 98014,
+    "protocolFeeOwedA": "6630750",
+    "protocolFeeOwedB": "121764959842",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "A4A7Vdqog9ognFUEmQcEBandYhasUb1P3NGLAawvcJJr",
+    "feeGrowthGlobalA": "411864596123738569",
+    "tokenMintB": "64mggk2nXg6vHC1qCdsZdEFzd5QGN4id54Vbho4PswCF",
+    "tokenVaultB": "NsUUhwRk4ApQ1Tr74oKrgFCVU5eGdNmasVico54KhRr",
+    "feeGrowthGlobalB": "1589651469958648702554",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:14:57Z",
+    "updatedAt": "2025-07-10T09:15:09.881654Z",
+    "updatedSlot": 83043317,
+    "writeVersion": 50605770346,
+    "hasWarning": false,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "64mggk2nXg6vHC1qCdsZdEFzd5QGN4id54Vbho4PswCF",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://powpow.app/assets/icon.png",
+      "name": "BITZ",
+      "symbol": "BITZ",
+      "decimals": 11,
+      "tags": []
+    },
+    "price": "180.51777796723077323100",
+    "tvlUsdc": "27414.4674614674613938893454199850",
+    "yieldOverTvl": "0.00453918675361178000",
+    "tokenBalanceA": "5192331516",
+    "tokenBalanceB": "86539228019586",
+    "stats": {
+      "24h": {
+        "volume": "12443.938755841400",
+        "fees": "124.439387558414",
+        "rewards": null,
+        "yieldOverTvl": "0.00453918675361178000"
+      },
+      "7d": {
+        "volume": "239892.788571121000",
+        "fees": "2398.927885711210",
+        "rewards": null,
+        "yieldOverTvl": "0.0875059086623891"
+      },
+      "30d": {
+        "volume": "904525.534273778000",
+        "fees": "9045.255342737780",
+        "rewards": null,
+        "yieldOverTvl": "0.3299445942348280"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 165.6803,
+    "apy": 422.2907
+  },
+  {
+    "address": "2GLTdWUezgjXpHz5eShAyehfhcRey4vuUdaCW58kuB4L",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 128,
+    "tickSpacingSeed": [
+      128,
+      0
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "12782632929",
+    "sqrtPrice": "23629260303126834850",
+    "tickCurrentIndex": 4952,
+    "protocolFeeOwedA": "2985502",
+    "protocolFeeOwedB": "4406399",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "HVfgyeSU2iURkm1i2r4fwNrCey988HcR7ihEr2xFLSNo",
+    "feeGrowthGlobalA": "2247975668760969920",
+    "tokenMintB": "9RryNMhAVJpAwAGjCAMKbbTFwgjapqPkzpGMfTQhEjf8",
+    "tokenVaultB": "9gFP2Ld4ExweuH4MN42iHLfN2gcmyHHc2tPU9dJyF852",
+    "feeGrowthGlobalB": "1852044781725084914",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:17:22Z",
+    "updatedAt": "2025-07-10T09:17:34.872502Z",
+    "updatedSlot": 83043720,
+    "writeVersion": 50605821747,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "9RryNMhAVJpAwAGjCAMKbbTFwgjapqPkzpGMfTQhEjf8",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/TIA/logo.svg",
+      "name": "Celestia",
+      "symbol": "TIA",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "1640.819498010167",
+    "tvlUsdc": "23436.3998516224536957875200916930",
+    "yieldOverTvl": "0.00211934235159039000",
+    "tokenBalanceA": "2199353219",
+    "tokenBalanceB": "10422843635",
+    "stats": {
+      "24h": {
+        "volume": "4966.975477435010",
+        "fees": "49.6697547743501000",
+        "rewards": null,
+        "yieldOverTvl": "0.00211934235159039000"
+      },
+      "7d": {
+        "volume": "26743.685668173700",
+        "fees": "267.436856681737",
+        "rewards": null,
+        "yieldOverTvl": "0.0114111748551356"
+      },
+      "30d": {
+        "volume": "69236.615160976800",
+        "fees": "692.366151609768",
+        "rewards": null,
+        "yieldOverTvl": "0.0295423425096512"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 128,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 77.356,
+    "apy": 116.5695
+  },
+  {
+    "address": "F5kon7gE9XFZgwonBiV5hzk6uwP3jH9YRgCchnLnf8dF",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 128,
+    "tickSpacingSeed": [
+      128,
+      0
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "4828594790",
+    "sqrtPrice": "30884450867983221674",
+    "tickCurrentIndex": 10307,
+    "protocolFeeOwedA": "1637499",
+    "protocolFeeOwedB": "5003945",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "6uGztRqs3AXZxJTnqyTGcp64BhG9VRbJxSG4GUKPXpkS",
+    "feeGrowthGlobalA": "175494942639071852",
+    "tokenMintB": "27Kkn8PWJbKJsRZrxbsYDdedpUQKnJ5vNfserCxNEJ3R",
+    "tokenVaultB": "4uLPYPsfJRSoNAMDBAqThKmGQKJwqtMD6vKdXCMDFbT9",
+    "feeGrowthGlobalB": "448447050455769643",
+    "rewardLastUpdatedTimestamp": "2025-07-10T07:34:45Z",
+    "updatedAt": "2025-07-10T07:34:57.158754Z",
+    "updatedSlot": 83026608,
+    "writeVersion": 50603542866,
+    "hasWarning": true,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "27Kkn8PWJbKJsRZrxbsYDdedpUQKnJ5vNfserCxNEJ3R",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/85fc184f345916356f0d1ad73fb89ea2f15b95d7/deployments/warp_routes/tUSD/logo.svg",
+      "name": "Turbo USD",
+      "symbol": "tUSD",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "2803.1111751332324000",
+    "tvlUsdc": "2520.6235949205312198820347768395",
+    "yieldOverTvl": "0.00190898964709006000",
+    "tokenBalanceA": "99141498",
+    "tokenBalanceB": "2279468222",
+    "stats": {
+      "24h": {
+        "volume": "481.184434691423",
+        "fees": "4.8118443469142300",
+        "rewards": null,
+        "yieldOverTvl": "0.00190898964709006000"
+      },
+      "7d": {
+        "volume": "8211.103100368020",
+        "fees": "82.1110310036802000",
+        "rewards": null,
+        "yieldOverTvl": "0.0325756813389938"
+      },
+      "30d": {
+        "volume": "32006.935129852500",
+        "fees": "320.069351298525",
+        "rewards": null,
+        "yieldOverTvl": "0.1269802250298370"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 128,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 69.6781,
+    "apy": 100.5948
+  },
+  {
+    "address": "Ff3MXmqzFAYjrQ1gaKNG47EoDZyEUg41pHhdqdpQowHA",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "142412622",
+    "sqrtPrice": "31833063448693642427",
+    "tickCurrentIndex": 10912,
+    "protocolFeeOwedA": "263085",
+    "protocolFeeOwedB": "742524",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "3R1dbVifsxbL5SF51fyfaGUE3c2NxAP4d2j4BdNLtBMr",
+    "feeGrowthGlobalA": "4193719247517205063",
+    "tokenMintB": "841P4tebEgNux2jaWSjCoi9LhrVr9eHGjLc758Va3RPH",
+    "tokenVaultB": "4TXnRH881n1aDewCZ3v7cKqukBtJMjp5YRuqTpo8eQys",
+    "feeGrowthGlobalB": "29598950226454424074",
+    "rewardLastUpdatedTimestamp": "2025-07-10T03:35:12Z",
+    "updatedAt": "2025-07-10T03:35:24.361540Z",
+    "updatedSlot": 82986666,
+    "writeVersion": 50598821925,
+    "hasWarning": false,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "841P4tebEgNux2jaWSjCoi9LhrVr9eHGjLc758Va3RPH",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://bafkreibk3covs5ltyqxa272uodhculbr6kea6betidfwy3ajsav2vjzyum.ipfs.nftstorage.link",
+      "name": "dogwifhat",
+      "symbol": "WIF",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "2977.9501585634513000",
+    "tvlUsdc": "389.9631819554038075677516161341",
+    "yieldOverTvl": "0.00142307746167803000",
+    "tokenBalanceA": "84092422",
+    "tokenBalanceB": "251274836",
+    "stats": {
+      "24h": {
+        "volume": "55.4947815124985000",
+        "fees": "0.5549478151249850",
+        "rewards": null,
+        "yieldOverTvl": "0.00142307746167803000"
+      },
+      "7d": {
+        "volume": "127.465851578514",
+        "fees": "1.2746585157851400",
+        "rewards": null,
+        "yieldOverTvl": "0.00326866374767378000"
+      },
+      "30d": {
+        "volume": "496.761232667999",
+        "fees": "4.9676123266799900",
+        "rewards": null,
+        "yieldOverTvl": "0.0127386701015484"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 51.9423,
+    "apy": 68.0437
+  },
+  {
+    "address": "E9bGe4pCSmSJL5gPGetf7o8M1MAV6VJVjA1xEcMFkFxm",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "587748887",
+    "sqrtPrice": "17846431587044672688",
+    "tickCurrentIndex": -662,
+    "protocolFeeOwedA": "1734646",
+    "protocolFeeOwedB": "1507514",
+    "tokenMintA": "841P4tebEgNux2jaWSjCoi9LhrVr9eHGjLc758Va3RPH",
+    "tokenVaultA": "2RVP1NnCBwVDHEXprnZ3E2nqZQLUMcDFFrzxcWuEfmSZ",
+    "feeGrowthGlobalA": "3480322667906641047",
+    "tokenMintB": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultB": "6F4sNEUg1t9iivQhHAWTmTQCb6jqUnyNQmCDXrtuCgMN",
+    "feeGrowthGlobalB": "3402402532909651613",
+    "rewardLastUpdatedTimestamp": "2025-07-10T02:05:13Z",
+    "updatedAt": "2025-07-10T02:05:25.850615Z",
+    "updatedSlot": 82971657,
+    "writeVersion": 50596824955,
+    "hasWarning": false,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "841P4tebEgNux2jaWSjCoi9LhrVr9eHGjLc758Va3RPH",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://bafkreibk3covs5ltyqxa272uodhculbr6kea6betidfwy3ajsav2vjzyum.ipfs.nftstorage.link",
+      "name": "dogwifhat",
+      "symbol": "WIF",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.93597303696040559506",
+    "tvlUsdc": "958.3764778322176394306369113653",
+    "yieldOverTvl": "0.00097622861332766800",
+    "tokenBalanceA": "615640343",
+    "tokenBalanceB": "575640912",
+    "stats": {
+      "24h": {
+        "volume": "93.55945400",
+        "fees": "0.93559454",
+        "rewards": null,
+        "yieldOverTvl": "0.00097622861332766800"
+      },
+      "7d": {
+        "volume": "341.12975800",
+        "fees": "3.41129758",
+        "rewards": null,
+        "yieldOverTvl": "0.00355945461820612000"
+      },
+      "30d": {
+        "volume": "1336.11055000",
+        "fees": "13.36110550",
+        "rewards": null,
+        "yieldOverTvl": "0.0139413954839771"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 35.6323,
+    "apy": 42.7821
+  },
+  {
+    "address": "8iW3iKVvyh3oM4ccDFH3hPjeJioLgotvE6r7CsJXDr42",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 32,
+    "tickSpacingSeed": [
+      32,
+      0
+    ],
+    "feeRate": 3000,
+    "protocolFeeRate": 1300,
+    "liquidity": "42393141",
+    "sqrtPrice": "30802642778055339443",
+    "tickCurrentIndex": 10254,
+    "protocolFeeOwedA": "711",
+    "protocolFeeOwedB": "2896",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "9Bh1R9DuobtZRTRUXFB54XJ7p3hcmnmyEqmkAyMAgJw8",
+    "feeGrowthGlobalA": "186128824830889874",
+    "tokenMintB": "CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm",
+    "tokenVaultB": "7APDqgwNFhDctz8jPPArH3LmEv8FbmcDem8zhvy8EVXg",
+    "feeGrowthGlobalB": "404190027333524658",
+    "rewardLastUpdatedTimestamp": "2025-07-10T07:09:07Z",
+    "updatedAt": "2025-07-10T07:09:20.159075Z",
+    "updatedSlot": 83022338,
+    "writeVersion": 50602969809,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/USDT/logo.svg",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "2788.2808348189564000",
+    "tvlUsdc": "8.6399087501428300308853523835",
+    "yieldOverTvl": "0.00078722941052053200",
+    "tokenBalanceA": "655171",
+    "tokenBalanceB": "6817444",
+    "stats": {
+      "24h": {
+        "volume": "2.2671967574420400",
+        "fees": "0.00680159027232612000",
+        "rewards": null,
+        "yieldOverTvl": "0.00078722941052053200"
+      },
+      "7d": {
+        "volume": "10.7024799936527000",
+        "fees": "0.0321074399809582",
+        "rewards": null,
+        "yieldOverTvl": "0.00371617813445396000"
+      },
+      "30d": {
+        "volume": "11.6327897068963000",
+        "fees": "0.0348983691206890",
+        "rewards": null,
+        "yieldOverTvl": "0.00403920575204132000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 28.7339,
+    "apy": 33.2725
+  },
+  {
+    "address": "Hx6f2SgeXffYBkYsqZGkP8g1oRrET6J3vGv4Wc6CZsgF",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 64,
+    "tickSpacingSeed": [
+      64,
+      0
+    ],
+    "feeRate": 6500,
+    "protocolFeeRate": 1300,
+    "liquidity": "38388901",
+    "sqrtPrice": "17704919837073767075",
+    "tickCurrentIndex": -821,
+    "protocolFeeOwedA": "64369",
+    "protocolFeeOwedB": "55990",
+    "tokenMintA": "841P4tebEgNux2jaWSjCoi9LhrVr9eHGjLc758Va3RPH",
+    "tokenVaultA": "8DpnRgX75yefyqa4qUQm6Lb6edTCQGDaTsxTV91ezG6p",
+    "feeGrowthGlobalA": "2115716273681048086",
+    "tokenMintB": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultB": "9ToE79WHuSJWqQUSaiVyASiP3svrP98kJSLCFhL8xqHu",
+    "feeGrowthGlobalB": "3946453956331488104",
+    "rewardLastUpdatedTimestamp": "2025-07-10T03:35:12Z",
+    "updatedAt": "2025-07-10T07:50:45.658628Z",
+    "updatedSlot": 83029244,
+    "writeVersion": 50603907651,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "841P4tebEgNux2jaWSjCoi9LhrVr9eHGjLc758Va3RPH",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://bafkreibk3covs5ltyqxa272uodhculbr6kea6betidfwy3ajsav2vjzyum.ipfs.nftstorage.link",
+      "name": "dogwifhat",
+      "symbol": "WIF",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.92118845085510634535",
+    "tvlUsdc": "72.5586554988445711832587324349",
+    "yieldOverTvl": "0.00075633792581608500",
+    "tokenBalanceA": "44392337",
+    "tokenBalanceB": "44960519",
+    "stats": {
+      "24h": {
+        "volume": "8.44290200",
+        "fees": "0.054878863000",
+        "rewards": null,
+        "yieldOverTvl": "0.00075633792581608500"
+      },
+      "7d": {
+        "volume": "19.40775800",
+        "fees": "0.126150427000",
+        "rewards": null,
+        "yieldOverTvl": "0.00173859929091449000"
+      },
+      "30d": {
+        "volume": "77.7555800000001000",
+        "fees": "0.50541127",
+        "rewards": null,
+        "yieldOverTvl": "0.00696555450931762000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 64,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 27.6063,
+    "apy": 31.7794
+  },
+  {
+    "address": "2Q5TuYHL7BZYyaQBDXfJu3ppJz9DQmo99ATBsUEv2LEh",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "10127696261",
+    "sqrtPrice": "23340323439340050748071",
+    "tickCurrentIndex": 142868,
+    "protocolFeeOwedA": "140428",
+    "protocolFeeOwedB": "135617911883",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "2kRBRoCoNE6W9RCM4iweAgTGfNPtwEy1JSSUskDPEKEG",
+    "feeGrowthGlobalA": "47520523066305647",
+    "tokenMintB": "CwrZKtPiZJrAK3tTjNPP22rD9VzeoxQv8iHd6EeyNoze",
+    "tokenVaultB": "59CbuZVWabZoJMfSjivhUVomHZugjJ6JVHdbUXjQstz8",
+    "feeGrowthGlobalB": "7572853262070656607031",
+    "rewardLastUpdatedTimestamp": "2025-07-10T07:23:42Z",
+    "updatedAt": "2025-07-10T07:23:55.158851Z",
+    "updatedSlot": 83024769,
+    "writeVersion": 50603300711,
+    "hasWarning": true,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "CwrZKtPiZJrAK3tTjNPP22rD9VzeoxQv8iHd6EeyNoze",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": null,
+      "name": "SOLAR STUDIOS",
+      "symbol": "SOLAR",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "1600937.1957248055999872",
+    "tvlUsdc": "54.9171696047149549754052876000",
+    "yieldOverTvl": "0.00066642926149444800",
+    "tokenBalanceA": "19756747",
+    "tokenBalanceB": "15574643243724",
+    "stats": {
+      "24h": {
+        "volume": "3.6598408783035500",
+        "fees": "0.0365984087830356",
+        "rewards": null,
+        "yieldOverTvl": "0.00066642926149444800"
+      },
+      "7d": {
+        "volume": "477.130410756117",
+        "fees": "4.7713041075611700",
+        "rewards": null,
+        "yieldOverTvl": "0.0868818284318776"
+      },
+      "30d": {
+        "volume": "567.409143268218",
+        "fees": "5.6740914326821800",
+        "rewards": null,
+        "yieldOverTvl": "0.1033209007952050"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 24.3247,
+    "apy": 27.528
+  },
+  {
+    "address": "G9hJfV7UD8VsbstRDUeTWsErhPRtfCVc3rjrYL7EDK1q",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 64,
+    "tickSpacingSeed": [
+      64,
+      0
+    ],
+    "feeRate": 6500,
+    "protocolFeeRate": 1300,
+    "liquidity": "7655783815559",
+    "sqrtPrice": "18367011508040481656",
+    "tickCurrentIndex": -87,
+    "protocolFeeOwedA": "4859623",
+    "protocolFeeOwedB": "3665463",
+    "tokenMintA": "27Kkn8PWJbKJsRZrxbsYDdedpUQKnJ5vNfserCxNEJ3R",
+    "tokenVaultA": "8EErrbApNLHFqBDSArBaSWkzEu41fb8vYb3ReN8C6sct",
+    "feeGrowthGlobalA": "18821380457781441",
+    "tokenMintB": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultB": "DLPDnCsJ6Qn1eMqh9k1qLwu7FJoDc8SMJwRNwcKNXxS5",
+    "feeGrowthGlobalB": "18230490489991667",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:05:49Z",
+    "updatedAt": "2025-07-10T09:06:00.881905Z",
+    "updatedSlot": 83041794,
+    "writeVersion": 50605570489,
+    "hasWarning": true,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "27Kkn8PWJbKJsRZrxbsYDdedpUQKnJ5vNfserCxNEJ3R",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/85fc184f345916356f0d1ad73fb89ea2f15b95d7/deployments/warp_routes/tUSD/logo.svg",
+      "name": "Turbo USD",
+      "symbol": "tUSD",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.99137406028115187243",
+    "tvlUsdc": "45596.0891033885635351162836161905",
+    "yieldOverTvl": "0.00065425138424045700",
+    "tokenBalanceA": "21391952382",
+    "tokenBalanceB": "24527201814",
+    "stats": {
+      "24h": {
+        "volume": "4589.431447975870",
+        "fees": "29.8313044118432000",
+        "rewards": null,
+        "yieldOverTvl": "0.00065425138424045700"
+      },
+      "7d": {
+        "volume": "112028.957594356000",
+        "fees": "728.188224363316",
+        "rewards": null,
+        "yieldOverTvl": "0.0159704097145735"
+      },
+      "30d": {
+        "volume": "186183.497761244000",
+        "fees": "1210.192735448090",
+        "rewards": null,
+        "yieldOverTvl": "0.0265415907207303"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 64,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 23.8802,
+    "apy": 26.9628
+  },
+  {
+    "address": "CFYaUSe34VBEoeKdJBXm9ThwsWoLaQ5stgiA3eUWBwV4",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 128,
+    "tickSpacingSeed": [
+      128,
+      0
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "100689250706",
+    "sqrtPrice": "77346677015946386760",
+    "tickCurrentIndex": 28669,
+    "protocolFeeOwedA": "1194060",
+    "protocolFeeOwedB": "40492337",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "9XDVftYxCKmaruRDfQBZDGhf5GzhBz6isM2nkZ5Xu9cR",
+    "feeGrowthGlobalA": "252212680292242275",
+    "tokenMintB": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+    "tokenVaultB": "HVQzsPZUQuaUJQBfeggqzvXw7m8xjwZYyevrekirWi7o",
+    "feeGrowthGlobalB": "3852630594599489131",
+    "rewardLastUpdatedTimestamp": "2025-07-10T08:54:30Z",
+    "updatedAt": "2025-07-10T08:54:42.371768Z",
+    "updatedSlot": 83039904,
+    "writeVersion": 50605326065,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/github/explore/14191328e15689ba52d5c10e18b43417bf79b2ef/topics/solana/solana.png",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "17.5810122033126416",
+    "tvlUsdc": "20192.6159871511197249566212521100",
+    "yieldOverTvl": "0.00048843811653637500",
+    "tokenBalanceA": "2347286026",
+    "tokenBalanceB": "86293607153",
+    "stats": {
+      "24h": {
+        "volume": "986.284332070638",
+        "fees": "9.8628433207063800",
+        "rewards": null,
+        "yieldOverTvl": "0.00048843811653637500"
+      },
+      "7d": {
+        "volume": "2546.141664607750",
+        "fees": "25.4614166460775000",
+        "rewards": null,
+        "yieldOverTvl": "0.00126092709643362000"
+      },
+      "30d": {
+        "volume": "23472.526068184500",
+        "fees": "234.725260681845",
+        "rewards": null,
+        "yieldOverTvl": "0.0116243116211988"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 128,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 17.828,
+    "apy": 19.5108
+  },
+  {
+    "address": "CDwapNLmXGYoNEKejQ3YvTG12E9CeQ2KALnErS5orKye",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "131752433858",
+    "sqrtPrice": "18466075671404070",
+    "tickCurrentIndex": -138142,
+    "protocolFeeOwedA": "655222123317",
+    "protocolFeeOwedB": "1450960",
+    "tokenMintA": "LaihKXA47apnS599tyEyasY2REfEzBNe4heunANhsMx",
+    "tokenVaultA": "EMySuehtbbwxVmCpoDy1sTJDnchWVEU7ngaGKv8Y8vUs",
+    "feeGrowthGlobalA": "1826939509279418744340",
+    "tokenMintB": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultB": "DV8ZchS7iRsy7z4wPmWvi3kGZNgH7Hi6i4BzBR2noEnK",
+    "feeGrowthGlobalB": "14785040833533641",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:00:57Z",
+    "updatedAt": "2025-07-10T09:01:09.872351Z",
+    "updatedSlot": 83040982,
+    "writeVersion": 50605465438,
+    "hasWarning": false,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "LaihKXA47apnS599tyEyasY2REfEzBNe4heunANhsMx",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://jbevm2tvx2k3a5ozok3ahhhtri6mwrpv4tmqqqoe6qsxykik22uq.arweave.net/SElWanW-lbB12XK2A5zzijzLRfXk2QhBxPQlfCkK1qk",
+      "name": "Laika",
+      "symbol": "LAIKA",
+      "decimals": 5,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.000000100209703425875300",
+    "tvlUsdc": "269.1031672968211520562481613012",
+    "yieldOverTvl": "0.00047811261863776600",
+    "tokenBalanceA": "134732793084661",
+    "tokenBalanceB": "138259351",
+    "stats": {
+      "24h": {
+        "volume": "12.86616200",
+        "fees": "0.12866162",
+        "rewards": null,
+        "yieldOverTvl": "0.00047811261863776600"
+      },
+      "7d": {
+        "volume": "321.345491098814",
+        "fees": "3.2134549109881400",
+        "rewards": null,
+        "yieldOverTvl": "0.0119413492723543"
+      },
+      "30d": {
+        "volume": "902.705510743717",
+        "fees": "9.0270551074371700",
+        "rewards": null,
+        "yieldOverTvl": "0.0335449604629897"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 17.4511,
+    "apy": 19.0614
+  },
+  {
+    "address": "3hS2hPqX9n2xeZyVhB6zkNEAwzL4fkKfBKtw59fj9RyV",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      251
+    ],
+    "tickSpacing": 128,
+    "tickSpacingSeed": [
+      128,
+      0
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "6216454060974",
+    "sqrtPrice": "11091460250233217",
+    "tickCurrentIndex": -148337,
+    "protocolFeeOwedA": "4767479917900",
+    "protocolFeeOwedB": "1394207",
+    "tokenMintA": "LaihKXA47apnS599tyEyasY2REfEzBNe4heunANhsMx",
+    "tokenVaultA": "21jEo1gKpsAwikjrbvENgJ6a72F7k7UHB1nLTDmBUsrb",
+    "feeGrowthGlobalA": "2545840460812541830558",
+    "tokenMintB": "So11111111111111111111111111111111111111112",
+    "tokenVaultB": "GBrKbLgEihTPRGfMn26LNsUtjEbYjHEsXTnCQcvVnt3F",
+    "feeGrowthGlobalB": "9563473549375205",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:18:27Z",
+    "updatedAt": "2025-07-10T09:18:39.371876Z",
+    "updatedSlot": 83043900,
+    "writeVersion": 50605845698,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "LaihKXA47apnS599tyEyasY2REfEzBNe4heunANhsMx",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://jbevm2tvx2k3a5ozok3ahhhtri6mwrpv4tmqqqoe6qsxykik22uq.arweave.net/SElWanW-lbB12XK2A5zzijzLRfXk2QhBxPQlfCkK1qk",
+      "name": "Laika",
+      "symbol": "LAIKA",
+      "decimals": 5,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "price": "0.0000000000361524728993924600",
+    "tvlUsdc": "22041.0385075544426509670888413884",
+    "yieldOverTvl": "0.00045647609938342300",
+    "tokenBalanceA": "11329000846867304",
+    "tokenBalanceB": "3971354741",
+    "stats": {
+      "24h": {
+        "volume": "1006.120728428830",
+        "fees": "10.0612072842883000",
+        "rewards": "0",
+        "yieldOverTvl": "0.00045591659870982800"
+      },
+      "7d": {
+        "volume": "20225.581357313700",
+        "fees": "202.255813573137",
+        "rewards": "0",
+        "yieldOverTvl": "0.0091763178450729"
+      },
+      "30d": {
+        "volume": "64537.233454351800",
+        "fees": "645.372334543518",
+        "rewards": "0",
+        "yieldOverTvl": "0.0292804521440692"
+      }
+    },
+    "rewards": [
+      {
+        "mint": "LaihKXA47apnS599tyEyasY2REfEzBNe4heunANhsMx",
+        "vault": "7qv9kFKNWutXorBcAHLteVEpV7xcg2V4o25m1AoxYuCz",
+        "authority": "DjDsi34mSB66p2nhBL6YvhbcLtZbkGfNybFeLDjJqxJW",
+        "emissions_per_second_x64": "0",
+        "growth_global_x64": "790313463095408712100",
+        "active": false,
+        "emissionsPerSecond": "0"
+      }
+    ],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 128,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 16.641,
+    "apy": 18.1012
+  },
+  {
+    "address": "2FR5TF3iDCLzGbWAuejR7LKiUL1J8ERnC1z2WGhC9s6D",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      252
+    ],
+    "tickSpacing": 128,
+    "tickSpacingSeed": [
+      128,
+      0
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "1969548886",
+    "sqrtPrice": "30780961736584621049",
+    "tickCurrentIndex": 10240,
+    "protocolFeeOwedA": "419738",
+    "protocolFeeOwedB": "1709739",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "A3eCkNBit8W3bqJS5bN6R7hP1TqNe8oSt6jiQvM2GaZb",
+    "feeGrowthGlobalA": "1443703411932364067",
+    "tokenMintB": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultB": "95dyT3sGS6AJQQZ7Bg6Lng8JoLJ7Rn7i116QzQfgQFzD",
+    "feeGrowthGlobalB": "3798794131817875623",
+    "rewardLastUpdatedTimestamp": "2025-07-10T07:13:42Z",
+    "updatedAt": "2025-07-10T07:13:54.168587Z",
+    "updatedSlot": 83023100,
+    "writeVersion": 50603073060,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "2784.3570444225284000",
+    "tvlUsdc": "5135.3400368105608740090099446000",
+    "yieldOverTvl": "0.00039196312782428400",
+    "tokenBalanceA": "896362985",
+    "tokenBalanceB": "2643749793",
+    "stats": {
+      "24h": {
+        "volume": "201.286394326954",
+        "fees": "2.0128639432695400",
+        "rewards": null,
+        "yieldOverTvl": "0.00039196312782428400"
+      },
+      "7d": {
+        "volume": "745.585368210135",
+        "fees": "7.4558536821013500",
+        "rewards": null,
+        "yieldOverTvl": "0.00145187146881358000"
+      },
+      "30d": {
+        "volume": "12083.754253737100",
+        "fees": "120.837542537371",
+        "rewards": null,
+        "yieldOverTvl": "0.0235305825264144"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 128,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 14.3067,
+    "apy": 15.3774
+  },
+  {
+    "address": "F1PEMGLjS9vAeBPBbZDRcjoy5Vfwme3xjdrzLeNheS5F",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 16,
+    "tickSpacingSeed": [
+      16,
+      0
+    ],
+    "feeRate": 1500,
+    "protocolFeeRate": 1300,
+    "liquidity": "12427988924",
+    "sqrtPrice": "10931744353323569288",
+    "tickCurrentIndex": -10465,
+    "protocolFeeOwedA": "2721074",
+    "protocolFeeOwedB": "1057370",
+    "tokenMintA": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultA": "12UvHx6yd5QZWo9wsvLJrWWX1SGKTkiNp4QAWqSeQAfj",
+    "feeGrowthGlobalA": "1048398566437227518",
+    "tokenMintB": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+    "tokenVaultB": "Enb1vvLC6wqhrYt73EFnidsgZymXL7SWYeJz6fkXGh95",
+    "feeGrowthGlobalB": "461480189082040497",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:15:06Z",
+    "updatedAt": "2025-07-10T09:15:18.372016Z",
+    "updatedSlot": 83043340,
+    "writeVersion": 50605771950,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/06833c4417faafd198ef8cf904612c721e5d96db/deployments/warp_routes/tETH/logo.svg",
+      "name": "Turbo ETH",
+      "symbol": "tETH",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.000351187855214922710140",
+    "tvlUsdc": "4607.6261079807995944345045375000",
+    "yieldOverTvl": "0.00037503337546016600",
+    "tokenBalanceA": "2623845443",
+    "tokenBalanceB": "697536275",
+    "stats": {
+      "24h": {
+        "volume": "1152.009048089620",
+        "fees": "1.7280135721344300",
+        "rewards": null,
+        "yieldOverTvl": "0.00037503337546016600"
+      },
+      "7d": {
+        "volume": "5046.374401967770",
+        "fees": "7.5695616029516500",
+        "rewards": null,
+        "yieldOverTvl": "0.00164283329974204000"
+      },
+      "30d": {
+        "volume": "37977.436819281300",
+        "fees": "56.966155228922",
+        "rewards": null,
+        "yieldOverTvl": "0.0123634500486599"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 16,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 13.6887,
+    "apy": 14.6669
+  },
+  {
+    "address": "Htx397QChAeScjFWqd59LQgRWskiS2g3P6FirBNeSEGU",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 128,
+    "tickSpacingSeed": [
+      128,
+      0
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "2066544917",
+    "sqrtPrice": "10920558568711633244",
+    "tickCurrentIndex": -10486,
+    "protocolFeeOwedA": "1961799",
+    "protocolFeeOwedB": "695523",
+    "tokenMintA": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultA": "HS6sMRKDu2EGiVjTMD48mYHwz6oMRsx5qNsLqReSMKwr",
+    "feeGrowthGlobalA": "2627419885721676083",
+    "tokenMintB": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+    "tokenVaultB": "5pvoq9q1jg737VagvjVHb6AToHrqMgxfy2EYAVWHrKYq",
+    "feeGrowthGlobalB": "920869179909349952",
+    "rewardLastUpdatedTimestamp": "2025-07-10T07:19:50Z",
+    "updatedAt": "2025-07-10T07:42:35.165499Z",
+    "updatedSlot": 83027883,
+    "writeVersion": 50603719585,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/06833c4417faafd198ef8cf904612c721e5d96db/deployments/warp_routes/tETH/logo.svg",
+      "name": "Turbo ETH",
+      "symbol": "tETH",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.000350469524858952608640",
+    "tvlUsdc": "3093.9333055270723545671178291000",
+    "yieldOverTvl": "0.00037418443748559800",
+    "tokenBalanceA": "1171570430",
+    "tokenBalanceB": "675940573",
+    "stats": {
+      "24h": {
+        "volume": "115.770169354660",
+        "fees": "1.1577016935466000",
+        "rewards": null,
+        "yieldOverTvl": "0.00037418443748559800"
+      },
+      "7d": {
+        "volume": "266.286542050988",
+        "fees": "2.6628654205098800",
+        "rewards": null,
+        "yieldOverTvl": "0.00086067318120687200"
+      },
+      "30d": {
+        "volume": "1488.112852394680",
+        "fees": "14.8811285239468000",
+        "rewards": null,
+        "yieldOverTvl": "0.00480977676453556000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 128,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 13.6577,
+    "apy": 14.6314
+  },
+  {
+    "address": "2sbba3bQ6jXjtKaCmsvjddaHqkbENPKMPPrhbVRV71C6",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      251
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "33899592881",
+    "sqrtPrice": "11065164808574059",
+    "tickCurrentIndex": -148385,
+    "protocolFeeOwedA": "152994604949",
+    "protocolFeeOwedB": "114409",
+    "tokenMintA": "LaihKXA47apnS599tyEyasY2REfEzBNe4heunANhsMx",
+    "tokenVaultA": "6qvFA9V6wAZRkzHWcmWLmeAj1pnnSK9PZX4PSbiBvuVV",
+    "feeGrowthGlobalA": "1498633045370534019216",
+    "tokenMintB": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+    "tokenVaultB": "7SkQPgcUushTTXu5htvLS5RreufXT9yaZxHXaASDbhFC",
+    "feeGrowthGlobalB": "3779680249882242",
+    "rewardLastUpdatedTimestamp": "2025-07-09T19:55:53Z",
+    "updatedAt": "2025-07-09T19:56:05.867915Z",
+    "updatedSlot": 82910068,
+    "writeVersion": 50588452185,
+    "hasWarning": false,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "LaihKXA47apnS599tyEyasY2REfEzBNe4heunANhsMx",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://jbevm2tvx2k3a5ozok3ahhhtri6mwrpv4tmqqqoe6qsxykik22uq.arweave.net/SElWanW-lbB12XK2A5zzijzLRfXk2QhBxPQlfCkK1qk",
+      "name": "Laika",
+      "symbol": "LAIKA",
+      "decimals": 5,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/06833c4417faafd198ef8cf904612c721e5d96db/deployments/warp_routes/tETH/logo.svg",
+      "name": "Turbo ETH",
+      "symbol": "tETH",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.0000000000359812567864714300",
+    "tvlUsdc": "115.5201195358728495524694816623",
+    "yieldOverTvl": "0.00029029934931669300",
+    "tokenBalanceA": "57409368428820",
+    "tokenBalanceB": "21015546",
+    "stats": {
+      "24h": {
+        "volume": "3.3535415534250500",
+        "fees": "0.0335354155342505",
+        "rewards": null,
+        "yieldOverTvl": "0.00029029934931669300"
+      },
+      "7d": {
+        "volume": "79.369062674355",
+        "fees": "0.7936906267435500",
+        "rewards": null,
+        "yieldOverTvl": "0.00687058349603839000"
+      },
+      "30d": {
+        "volume": "192.404272838281",
+        "fees": "1.9240427283828100",
+        "rewards": null,
+        "yieldOverTvl": "0.0166554772979207"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 10.5959,
+    "apy": 11.1759
+  },
+  {
+    "address": "2HE7c5eLpgVQdQBS8tmJ7gn8fvSnhHcxJ8pWRPBKjP6w",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "90939697628",
+    "sqrtPrice": "1475099394392192319141",
+    "tickCurrentIndex": 87636,
+    "protocolFeeOwedA": "2332792",
+    "protocolFeeOwedB": "16053751464",
+    "tokenMintA": "27Kkn8PWJbKJsRZrxbsYDdedpUQKnJ5vNfserCxNEJ3R",
+    "tokenVaultA": "EFvonXm3rfXXEKyTAEadGMEMcydpR2qW2sjLi8iSHPM9",
+    "feeGrowthGlobalA": "25708681946606223",
+    "tokenMintB": "64mggk2nXg6vHC1qCdsZdEFzd5QGN4id54Vbho4PswCF",
+    "tokenVaultB": "JCJEAjP9VTkBxLp1tUA2DTJHqJgixNEi5pRuNJ8NiqJk",
+    "feeGrowthGlobalB": "95485358643985994355",
+    "rewardLastUpdatedTimestamp": "2025-07-10T08:00:51Z",
+    "updatedAt": "2025-07-10T08:01:03.658775Z",
+    "updatedSlot": 83030964,
+    "writeVersion": 50604135268,
+    "hasWarning": true,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "27Kkn8PWJbKJsRZrxbsYDdedpUQKnJ5vNfserCxNEJ3R",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/85fc184f345916356f0d1ad73fb89ea2f15b95d7/deployments/warp_routes/tUSD/logo.svg",
+      "name": "Turbo USD",
+      "symbol": "tUSD",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "64mggk2nXg6vHC1qCdsZdEFzd5QGN4id54Vbho4PswCF",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://powpow.app/assets/icon.png",
+      "name": "BITZ",
+      "symbol": "BITZ",
+      "decimals": 11,
+      "tags": []
+    },
+    "price": "0.06394448948457465907",
+    "tvlUsdc": "2306.3696172039608023954549961212",
+    "yieldOverTvl": "0.00028573574349913100",
+    "tokenBalanceA": "1196713681",
+    "tokenBalanceB": "7517826313938",
+    "stats": {
+      "24h": {
+        "volume": "65.901223735558",
+        "fees": "0.6590122373555800",
+        "rewards": null,
+        "yieldOverTvl": "0.00028573574349913100"
+      },
+      "7d": {
+        "volume": "5194.378367576930",
+        "fees": "51.9437836757693000",
+        "rewards": null,
+        "yieldOverTvl": "0.0225218817002720"
+      },
+      "30d": {
+        "volume": "24481.219210146300",
+        "fees": "244.812192101463",
+        "rewards": null,
+        "yieldOverTvl": "0.1061461225795420"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 10.4294,
+    "apy": 10.991
+  },
+  {
+    "address": "44w4HrojzxKwxEb3bmjRNcJ4irFhUGBUjrCYecYhPvqq",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      253
+    ],
+    "tickSpacing": 8,
+    "tickSpacingSeed": [
+      8,
+      0
+    ],
+    "feeRate": 1000,
+    "protocolFeeRate": 1300,
+    "liquidity": "3629690325329",
+    "sqrtPrice": "30772965636473244782",
+    "tickCurrentIndex": 10235,
+    "protocolFeeOwedA": "28820308",
+    "protocolFeeOwedB": "111778373",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "2Ts6jTXroGCrT8ufoB2i9sPWvouBkArtLcaRzEZdVKzn",
+    "feeGrowthGlobalA": "383148503565533585",
+    "tokenMintB": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultB": "8oT8w2kT8eGiz77FY3M7NRJbEkVTFRxAHwRnvxNf9Ta5",
+    "feeGrowthGlobalB": "943420307556389684",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:17:58Z",
+    "updatedAt": "2025-07-10T09:18:10.372241Z",
+    "updatedSlot": 83043820,
+    "writeVersion": 50605834478,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "2782.9106239982878000",
+    "tvlUsdc": "3447158.4292738899495305943670194000",
+    "yieldOverTvl": "0.00025877879838829700",
+    "tokenBalanceA": "796934715627",
+    "tokenBalanceB": "1231945624151",
+    "stats": {
+      "24h": {
+        "volume": "892051.516181586000",
+        "fees": "892.051516181586",
+        "rewards": null,
+        "yieldOverTvl": "0.00025865232966922100"
+      },
+      "7d": {
+        "volume": "4409163.61230465",
+        "fees": "4409.163612304650",
+        "rewards": null,
+        "yieldOverTvl": "0.00127907193787824000"
+      },
+      "30d": {
+        "volume": "25685999.37820320",
+        "fees": "25685.999378203200",
+        "rewards": null,
+        "yieldOverTvl": "0.00745135447215685000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [
+      {
+        "name": "Whirlpool-Locked",
+        "locked_percentage": "0.000000161",
+        "lockedPercentage": "0.000000161"
+      }
+    ],
+    "feeTierIndex": 8,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 9.4408,
+    "apy": 9.8995
+  },
+  {
+    "address": "54XWMjh4eMPHHSBLdbbrZo21KBUK6FAeHDA2Py2o1n4n",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "13733648078",
+    "sqrtPrice": "578184756282315635",
+    "tickCurrentIndex": -69259,
+    "protocolFeeOwedA": "3529487845",
+    "protocolFeeOwedB": "7763965",
+    "tokenMintA": "64mggk2nXg6vHC1qCdsZdEFzd5QGN4id54Vbho4PswCF",
+    "tokenVaultA": "3EvQvYgwrqvBbuuEZysSJ6tzuEqJYwTJjcULPMptkMmK",
+    "feeGrowthGlobalA": "50160411525064339707",
+    "tokenMintB": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+    "tokenVaultB": "CbsyM5NLzBQJdXPu7VdHBXTi81Wmq32d5siB1BQdjMfJ",
+    "feeGrowthGlobalB": "95168192072305519",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:10:36Z",
+    "updatedAt": "2025-07-10T09:10:48.371784Z",
+    "updatedSlot": 83042590,
+    "writeVersion": 50605674685,
+    "hasWarning": false,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "64mggk2nXg6vHC1qCdsZdEFzd5QGN4id54Vbho4PswCF",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://powpow.app/assets/icon.png",
+      "name": "BITZ",
+      "symbol": "BITZ",
+      "decimals": 11,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/github/explore/14191328e15689ba52d5c10e18b43417bf79b2ef/topics/solana/solana.png",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.09824123871658379600",
+    "tvlUsdc": "152.4689642574561430018988887280",
+    "yieldOverTvl": "0.00021843386972971500",
+    "tokenBalanceA": "478993075489",
+    "tokenBalanceB": "508978446",
+    "stats": {
+      "24h": {
+        "volume": "3.3304385876437700",
+        "fees": "0.0333043858764377",
+        "rewards": null,
+        "yieldOverTvl": "0.00021843386972971500"
+      },
+      "7d": {
+        "volume": "199.400616185021",
+        "fees": "1.9940061618502100",
+        "rewards": null,
+        "yieldOverTvl": "0.0130781118082705"
+      },
+      "30d": {
+        "volume": "555.225467569016",
+        "fees": "5.5522546756901600",
+        "rewards": null,
+        "yieldOverTvl": "0.0364156384397990"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 7.9728,
+    "apy": 8.2983
+  },
+  {
+    "address": "E6AFbRkMwidQyBQ872e9kbVT2ZqybmM6dJ2Zaa6sVxJq",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      252
+    ],
+    "tickSpacing": 8,
+    "tickSpacingSeed": [
+      8,
+      0
+    ],
+    "feeRate": 1000,
+    "protocolFeeRate": 1300,
+    "liquidity": "1060226273862",
+    "sqrtPrice": "77304883313721979267",
+    "tickCurrentIndex": 28658,
+    "protocolFeeOwedA": "5025602",
+    "protocolFeeOwedB": "103783395",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "Du5B9P5uPhZ1nWubRTLrhoh6Va1kpuVXM1FpM7wJSPSu",
+    "feeGrowthGlobalA": "147441033048744285",
+    "tokenMintB": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+    "tokenVaultB": "FQjMvPVo9ReLZwbojjBkdjda4kSjdqoRjrARfN9qX9FJ",
+    "feeGrowthGlobalB": "2167625084349628079",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:18:18Z",
+    "updatedAt": "2025-07-10T09:18:30.872093Z",
+    "updatedSlot": 83043876,
+    "writeVersion": 50605843717,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/github/explore/14191328e15689ba52d5c10e18b43417bf79b2ef/topics/solana/solana.png",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "17.5620177978151036",
+    "tvlUsdc": "413796.0831482458680934344506070100",
+    "yieldOverTvl": "0.00020615769804340400",
+    "tokenBalanceA": "54177518502",
+    "tokenBalanceB": "1661737419215",
+    "stats": {
+      "24h": {
+        "volume": "85307.247961219200",
+        "fees": "85.3072479612192000",
+        "rewards": null,
+        "yieldOverTvl": "0.00020820675117207500"
+      },
+      "7d": {
+        "volume": "715028.482331351000",
+        "fees": "715.028482331351",
+        "rewards": null,
+        "yieldOverTvl": "0.00172797305593438000"
+      },
+      "30d": {
+        "volume": "3466187.12497426",
+        "fees": "3466.187124974260",
+        "rewards": null,
+        "yieldOverTvl": "0.00837655856624546000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [
+      {
+        "name": "Whirlpool-Locked",
+        "locked_percentage": "0.000655169",
+        "lockedPercentage": "0.000655169"
+      }
+    ],
+    "feeTierIndex": 8,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 7.5995,
+    "apy": 7.8949
+  },
+  {
+    "address": "H3s6PDBFWVN3iBDvwDUNVDqkyDpvtvbakfikH5dNAPyS",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "36518479",
+    "sqrtPrice": "23612961318635730121",
+    "tickCurrentIndex": 4938,
+    "protocolFeeOwedA": "109653",
+    "protocolFeeOwedB": "172258",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "CAZLYK5dPbmJ93sdb3sYMFYPppwEwHQq4GSqUUB2BpDQ",
+    "feeGrowthGlobalA": "4499041489527033316",
+    "tokenMintB": "9RryNMhAVJpAwAGjCAMKbbTFwgjapqPkzpGMfTQhEjf8",
+    "tokenVaultB": "8biaqjDqQwi4tYksWchywAwQwoKC1x8ka49GjX51nvMX",
+    "feeGrowthGlobalB": "3209098847432090418",
+    "rewardLastUpdatedTimestamp": "2025-07-09T18:25:06Z",
+    "updatedAt": "2025-07-10T05:35:23.361216Z",
+    "updatedSlot": 83006664,
+    "writeVersion": 50601449420,
+    "hasWarning": false,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "9RryNMhAVJpAwAGjCAMKbbTFwgjapqPkzpGMfTQhEjf8",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/TIA/logo.svg",
+      "name": "Celestia",
+      "symbol": "TIA",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "1638.5566706867713000",
+    "tvlUsdc": "161.5719777502089133728990007660",
+    "yieldOverTvl": "0.00020133839439914000",
+    "tokenBalanceA": "29536223",
+    "tokenBalanceB": "47816106",
+    "stats": {
+      "24h": {
+        "volume": "3.2530642580120600",
+        "fees": "0.0325306425801206",
+        "rewards": null,
+        "yieldOverTvl": "0.00020133839439914000"
+      },
+      "7d": {
+        "volume": "53.7774022198113000",
+        "fees": "0.5377740221981130",
+        "rewards": null,
+        "yieldOverTvl": "0.00332838670223815000"
+      },
+      "30d": {
+        "volume": "198.190264473522",
+        "fees": "1.9819026447352200",
+        "rewards": null,
+        "yieldOverTvl": "0.0122663760902850"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 7.3489,
+    "apy": 7.6248
+  },
+  {
+    "address": "9MaaM6JL9pqDQ63RMuJZ1qNu1bZ9cBR3rNESYBH1B487",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 32,
+    "tickSpacingSeed": [
+      32,
+      0
+    ],
+    "feeRate": 3000,
+    "protocolFeeRate": 1300,
+    "liquidity": "1566870943",
+    "sqrtPrice": "4344339232628393318",
+    "tickCurrentIndex": -28922,
+    "protocolFeeOwedA": "7578561",
+    "protocolFeeOwedB": "424709",
+    "tokenMintA": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+    "tokenVaultA": "EsuqNcokGBFt5uW2Bq8EJnyKVBTKATrHJeMtGXbAYCLF",
+    "feeGrowthGlobalA": "1314108041498491147",
+    "tokenMintB": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+    "tokenVaultB": "CT26cBA93ogDLz8PbbPqJaYHcbMQwXcKnHU8pkmjkbCL",
+    "feeGrowthGlobalB": "100735155323711383",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:12:28Z",
+    "updatedAt": "2025-07-10T09:12:40.872430Z",
+    "updatedSlot": 83042903,
+    "writeVersion": 50605715334,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/github/explore/14191328e15689ba52d5c10e18b43417bf79b2ef/topics/solana/solana.png",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/06833c4417faafd198ef8cf904612c721e5d96db/deployments/warp_routes/tETH/logo.svg",
+      "name": "Turbo ETH",
+      "symbol": "tETH",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.05546359495183391137",
+    "tvlUsdc": "862.7454635323777129177056946700",
+    "yieldOverTvl": "0.00018155213767586300",
+    "tokenBalanceA": "4555386024",
+    "tokenBalanceB": "49656854",
+    "stats": {
+      "24h": {
+        "volume": "52.2110943914856000",
+        "fees": "0.1566332831744570",
+        "rewards": null,
+        "yieldOverTvl": "0.00018155213767586300"
+      },
+      "7d": {
+        "volume": "333.933803305400",
+        "fees": "1.0018014099162000",
+        "rewards": null,
+        "yieldOverTvl": "0.00116117841502693000"
+      },
+      "30d": {
+        "volume": "3306.729594863060",
+        "fees": "9.9201887845891700",
+        "rewards": null,
+        "yieldOverTvl": "0.0114983957655048"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 6.6267,
+    "apy": 6.8505
+  },
+  {
+    "address": "22jHTm21qjrgDMaXdAB3bpLCVSFjj1Qg9M7oMimsLmfE",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 8,
+    "tickSpacingSeed": [
+      8,
+      0
+    ],
+    "feeRate": 1000,
+    "protocolFeeRate": 1300,
+    "liquidity": "533379891",
+    "sqrtPrice": "30790601893914171561",
+    "tickCurrentIndex": 10246,
+    "protocolFeeOwedA": "927043",
+    "protocolFeeOwedB": "2360968",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "31qgotMt2adHdG8XYD2sA8SKnCGiPLBSWtPbDSUa8SQa",
+    "feeGrowthGlobalA": "719603766343178534",
+    "tokenMintB": "CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm",
+    "tokenVaultB": "EfufDFpuMHwPQoEUk27oXAtUHkWmzmpZ4avfv42SDMQZ",
+    "feeGrowthGlobalB": "1616445337343549992",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:16:32Z",
+    "updatedAt": "2025-07-10T09:16:44.872279Z",
+    "updatedSlot": 83043581,
+    "writeVersion": 50605806060,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/USDT/logo.svg",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "2786.101359197917",
+    "tvlUsdc": "2232.2468813280472894068195343050",
+    "yieldOverTvl": "0.00016865339217716900",
+    "tokenBalanceA": "465048876",
+    "tokenBalanceB": "939385852",
+    "stats": {
+      "24h": {
+        "volume": "376.476008712882",
+        "fees": "0.3764760087128820",
+        "rewards": null,
+        "yieldOverTvl": "0.00016865339217716900"
+      },
+      "7d": {
+        "volume": "2701.737004105080",
+        "fees": "2.7017370041050800",
+        "rewards": null,
+        "yieldOverTvl": "0.00121032177341322000"
+      },
+      "30d": {
+        "volume": "17508.267745632400",
+        "fees": "17.5082677456324000",
+        "rewards": null,
+        "yieldOverTvl": "0.00784333842823695000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 8,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 6.1558,
+    "apy": 6.3487
+  },
+  {
+    "address": "9MFBoNCVksJz1ZwqVjzehpkFjymjCM4W7RUVYTz7phrU",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 4,
+    "tickSpacingSeed": [
+      4,
+      0
+    ],
+    "feeRate": 500,
+    "protocolFeeRate": 1300,
+    "liquidity": "3984365928",
+    "sqrtPrice": "19427829688377575897",
+    "tickCurrentIndex": 1036,
+    "protocolFeeOwedA": "192359",
+    "protocolFeeOwedB": "205820",
+    "tokenMintA": "V5m1Cc9VK61mKL8xVYrjR7bjD2BC5VpADLa6ws3G8KM",
+    "tokenVaultA": "EpLh4ceJ3RTHjVspAzhHmdimFcaVGoc7KqHkYhA4skMh",
+    "feeGrowthGlobalA": "40090472046234445",
+    "tokenMintB": "9RryNMhAVJpAwAGjCAMKbbTFwgjapqPkzpGMfTQhEjf8",
+    "tokenVaultB": "6GZfYcsFmZ4SsN5MdwJcvuXy6R2R3Ttv1PoNgzwNVXps",
+    "feeGrowthGlobalB": "42950490808300312",
+    "rewardLastUpdatedTimestamp": "2025-07-10T05:58:28Z",
+    "updatedAt": "2025-07-10T05:58:40.851146Z",
+    "updatedSlot": 83010552,
+    "writeVersion": 50601970384,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "V5m1Cc9VK61mKL8xVYrjR7bjD2BC5VpADLa6ws3G8KM",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/stTIA/logo.svg",
+      "name": "Stride Staked TIA",
+      "symbol": "stTIA",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "9RryNMhAVJpAwAGjCAMKbbTFwgjapqPkzpGMfTQhEjf8",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/TIA/logo.svg",
+      "name": "Celestia",
+      "symbol": "TIA",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "1.1091981339376896",
+    "tvlUsdc": "1358.8372583078288139111736035020",
+    "yieldOverTvl": "0.00015680443405567900",
+    "tokenBalanceA": "738681910",
+    "tokenBalanceB": "817583821",
+    "stats": {
+      "24h": {
+        "volume": "426.143414525459",
+        "fees": "0.2130717072627300",
+        "rewards": null,
+        "yieldOverTvl": "0.00015680443405567900"
+      },
+      "7d": {
+        "volume": "2296.754912027660",
+        "fees": "1.1483774560138300",
+        "rewards": null,
+        "yieldOverTvl": "0.00084511772766954900"
+      },
+      "30d": {
+        "volume": "6550.696378154870",
+        "fees": "3.2753481890774400",
+        "rewards": null,
+        "yieldOverTvl": "0.00241040504964977000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 4,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 5.7234,
+    "apy": 5.8898
+  },
+  {
+    "address": "2qbbDqTtcFQL8tL5BpEuxozGPRjBfmJG6oYcvYnGzULE",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 64,
+    "tickSpacingSeed": [
+      64,
+      0
+    ],
+    "feeRate": 6500,
+    "protocolFeeRate": 1300,
+    "liquidity": "3390117881",
+    "sqrtPrice": "30830183330170126190",
+    "tickCurrentIndex": 10272,
+    "protocolFeeOwedA": "1947318",
+    "protocolFeeOwedB": "5256584",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "Ea14xMzamJiK7bNdjatrdYKJsS8CkLKsttqv7hB3KUKa",
+    "feeGrowthGlobalA": "936917493831462205",
+    "tokenMintB": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultB": "EcJ3FmGLdcXizKgJ3V8DgBTZaiQRSuWBfMMse2P3Z3Up",
+    "feeGrowthGlobalB": "2227059718980787337",
+    "rewardLastUpdatedTimestamp": "2025-07-10T07:18:43Z",
+    "updatedAt": "2025-07-10T07:18:55.658753Z",
+    "updatedSlot": 83023936,
+    "writeVersion": 50603184410,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "2793.269051148748",
+    "tvlUsdc": "9349.796596048737606634125740",
+    "yieldOverTvl": "0.00015275249060067600",
+    "tokenBalanceA": "1529616635",
+    "tokenBalanceB": "5097972337",
+    "stats": {
+      "24h": {
+        "volume": "219.723802562487",
+        "fees": "1.4282047166561700",
+        "rewards": null,
+        "yieldOverTvl": "0.00015275249060067600"
+      },
+      "7d": {
+        "volume": "2423.205278760840",
+        "fees": "15.7508343119455000",
+        "rewards": null,
+        "yieldOverTvl": "0.00168461785774055000"
+      },
+      "30d": {
+        "volume": "21932.742377262300",
+        "fees": "142.562825452205",
+        "rewards": null,
+        "yieldOverTvl": "0.0152476927158451"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 64,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 5.5755,
+    "apy": 5.7334
+  },
+  {
+    "address": "AkCz8RvLkUV2BP7VXYXoLfjFSSPXQLqYSsbsEeBBHi3u",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      252
+    ],
+    "tickSpacing": 128,
+    "tickSpacingSeed": [
+      128,
+      0
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "3030930383",
+    "sqrtPrice": "18319957214841600080",
+    "tickCurrentIndex": -138,
+    "protocolFeeOwedA": "33599",
+    "protocolFeeOwedB": "14448",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "Fi5Tzut4FJHem5texT55GaEv527PE7ZpE6PBfcjsi89e",
+    "feeGrowthGlobalA": "32217431342647123",
+    "tokenMintB": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+    "tokenVaultB": "c8eWKdJTraLvXoLPcXCLMmdYXgiujbS4Ba6ZQ7Cxfvz",
+    "feeGrowthGlobalB": "27724680581118975",
+    "rewardLastUpdatedTimestamp": "2025-07-09T19:54:51Z",
+    "updatedAt": "2025-07-09T19:55:03.850606Z",
+    "updatedSlot": 82909895,
+    "writeVersion": 50588424254,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/06833c4417faafd198ef8cf904612c721e5d96db/deployments/warp_routes/tETH/logo.svg",
+      "name": "Turbo ETH",
+      "symbol": "tETH",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.98630098112490579851",
+    "tvlUsdc": "244.3784696078440890242662485000",
+    "yieldOverTvl": "0.00014260210199839800",
+    "tokenBalanceA": "56762366",
+    "tokenBalanceB": "30449565",
+    "stats": {
+      "24h": {
+        "volume": "3.4848883449230200",
+        "fees": "0.0348488834492302",
+        "rewards": null,
+        "yieldOverTvl": "0.00014260210199839800"
+      },
+      "7d": {
+        "volume": "64.3623835899306000",
+        "fees": "0.6436238358993060",
+        "rewards": null,
+        "yieldOverTvl": "0.00263371743399545000"
+      },
+      "30d": {
+        "volume": "88.2649424950638000",
+        "fees": "0.8826494249506380",
+        "rewards": null,
+        "yieldOverTvl": "0.00361181337442301000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 128,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 5.205,
+    "apy": 5.3424
+  },
+  {
+    "address": "4KeSjej3hznswHTktvbrEgY6V6UVEjS93UBpVyujjUtC",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 8,
+    "tickSpacingSeed": [
+      8,
+      0
+    ],
+    "feeRate": 1000,
+    "protocolFeeRate": 1300,
+    "liquidity": "1545928949482",
+    "sqrtPrice": "46318889107077756219",
+    "tickCurrentIndex": 18414,
+    "protocolFeeOwedA": "12718610",
+    "protocolFeeOwedB": "67168689",
+    "tokenMintA": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultA": "8qDNm1YoRPt8JnxSxoAL29sXzYg7DLCS9jVJuANt5pcV",
+    "feeGrowthGlobalA": "303121155904102193",
+    "tokenMintB": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+    "tokenVaultB": "CJyisQnP3RfoYUjh5KWa8UhLG5CPw6QZFHKUUW4aL9m3",
+    "feeGrowthGlobalB": "1751965385963346063",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:18:22Z",
+    "updatedAt": "2025-07-10T09:18:34.381465Z",
+    "updatedSlot": 83043887,
+    "writeVersion": 50605844709,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/github/explore/14191328e15689ba52d5c10e18b43417bf79b2ef/topics/solana/solana.png",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.00630487999577198170",
+    "tvlUsdc": "678300.2712850429112123596287023900",
+    "yieldOverTvl": "0.00013775979118306600",
+    "tokenBalanceA": "385997684123",
+    "tokenBalanceB": "1845474759226",
+    "stats": {
+      "24h": {
+        "volume": "93442.503731644800",
+        "fees": "93.4425037316447000",
+        "rewards": null,
+        "yieldOverTvl": "0.00013774697004710600"
+      },
+      "7d": {
+        "volume": "544892.916722657000",
+        "fees": "544.892916722657",
+        "rewards": null,
+        "yieldOverTvl": "0.00080332109508131900"
+      },
+      "30d": {
+        "volume": "3537491.21317371",
+        "fees": "3537.491213173710",
+        "rewards": null,
+        "yieldOverTvl": "0.00521522895232213000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 8,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 5.0278,
+    "apy": 5.1559
+  },
+  {
+    "address": "FrQHUuuHfPoaZUDtdGatzGinGFP5TkMamThXtC4G2B7J",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      253
+    ],
+    "tickSpacing": 8,
+    "tickSpacingSeed": [
+      8,
+      0
+    ],
+    "feeRate": 1000,
+    "protocolFeeRate": 1300,
+    "liquidity": "3833921518700",
+    "sqrtPrice": "570866396087697241756",
+    "tickCurrentIndex": 68648,
+    "protocolFeeOwedA": "1672296",
+    "protocolFeeOwedB": "1540632549",
+    "tokenMintA": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultA": "BnU1YTAhUj9rTb7ntJEbbtLpkzn28MJ4Cv4JvY38zafU",
+    "feeGrowthGlobalA": "407550774553168",
+    "tokenMintB": "FATF66HHhz8Yf2zxMXZXjmzu8NFArwtCJGEsj7rHC8i4",
+    "tokenVaultB": "4wBbqSPoDYrep1Z2Yx1fDf2PLBKB9sYQLsbSxmHbMTDs",
+    "feeGrowthGlobalB": "385376615074014074",
+    "rewardLastUpdatedTimestamp": "2025-07-10T06:00:07Z",
+    "updatedAt": "2025-07-10T06:00:19.351169Z",
+    "updatedSlot": 83010827,
+    "writeVersion": 50602004893,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "FATF66HHhz8Yf2zxMXZXjmzu8NFArwtCJGEsj7rHC8i4",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://raw.githubusercontent.com/Hydrogen-Labs/neptune-token-mint/refs/heads/main/usdn.png",
+      "name": "Neptune USD",
+      "symbol": "USDN",
+      "decimals": 9,
+      "tags": []
+    },
+    "price": "0.95770005695849902850",
+    "tvlUsdc": "6173.0778944886169194025972558649",
+    "yieldOverTvl": "0.00008652307570537250",
+    "tokenBalanceA": "5697389273",
+    "tokenBalanceB": "455881672108",
+    "stats": {
+      "24h": {
+        "volume": "534.11368600",
+        "fees": "0.534113686000",
+        "rewards": null,
+        "yieldOverTvl": "0.00008652307570537250"
+      },
+      "7d": {
+        "volume": "2811.911561916390",
+        "fees": "2.8119115619163900",
+        "rewards": null,
+        "yieldOverTvl": "0.00045551208165166600"
+      },
+      "30d": {
+        "volume": "6572.633815573560",
+        "fees": "6.5726338155735600",
+        "rewards": null,
+        "yieldOverTvl": "0.00106472555958538000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 8,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 3.1581,
+    "apy": 3.2083
+  },
+  {
+    "address": "9C2dAVbW4GH3HF9KXMovLJy7JG1xxRdRZcxcrcrYjocZ",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "481866943",
+    "sqrtPrice": "46531566354465024450",
+    "tickCurrentIndex": 18505,
+    "protocolFeeOwedA": "173765",
+    "protocolFeeOwedB": "1205017",
+    "tokenMintA": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultA": "3FyGQZ3QLAaX37NEsmdvMH32APvq7Z7VTcSY6SYbG71Y",
+    "feeGrowthGlobalA": "475741625255953709",
+    "tokenMintB": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+    "tokenVaultB": "5YpE9UyNVnYXB7szinkvg2d8ki5Yv7hoatNxnwhqw9Mq",
+    "feeGrowthGlobalB": "2773498846870159738",
+    "rewardLastUpdatedTimestamp": "2025-07-10T02:23:17Z",
+    "updatedAt": "2025-07-10T02:23:29.361319Z",
+    "updatedSlot": 82974668,
+    "writeVersion": 50597217599,
+    "hasWarning": false,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/github/explore/14191328e15689ba52d5c10e18b43417bf79b2ef/topics/solana/solana.png",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.00636291174001103360",
+    "tvlUsdc": "390.7431571966695533917837911500",
+    "yieldOverTvl": "0.00008311851204782710",
+    "tokenBalanceA": "194634267",
+    "tokenBalanceB": "1238148490",
+    "stats": {
+      "24h": {
+        "volume": "3.2477989819057400",
+        "fees": "0.0324779898190574",
+        "rewards": null,
+        "yieldOverTvl": "0.00008311851204782710"
+      },
+      "7d": {
+        "volume": "14.0911681773334000",
+        "fees": "0.1409116817733340",
+        "rewards": null,
+        "yieldOverTvl": "0.00036062482266941000"
+      },
+      "30d": {
+        "volume": "143.444861526959",
+        "fees": "1.4344486152695900",
+        "rewards": null,
+        "yieldOverTvl": "0.00367107801851434000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 3.0338,
+    "apy": 3.0802
+  },
+  {
+    "address": "4LkZRHNvw5611vvfN3yWDfxRij3JoW6V7fGHv5uTFtsf",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 8,
+    "tickSpacingSeed": [
+      8,
+      0
+    ],
+    "feeRate": 1000,
+    "protocolFeeRate": 1300,
+    "liquidity": "41819843",
+    "sqrtPrice": "23962737340570245661",
+    "tickCurrentIndex": 5232,
+    "protocolFeeOwedA": "77986",
+    "protocolFeeOwedB": "165606",
+    "tokenMintA": "9RryNMhAVJpAwAGjCAMKbbTFwgjapqPkzpGMfTQhEjf8",
+    "tokenVaultA": "5M3CwpycvCc39VT8kdReC5JZJacNgpXYYT9Rh87DHXxq",
+    "feeGrowthGlobalA": "589452590454609042",
+    "tokenMintB": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultB": "67YcxsASYdTdS5HqTFQTH3TRXBYXWp7yF2cc42KEiKQ8",
+    "feeGrowthGlobalB": "2189004510979254098",
+    "rewardLastUpdatedTimestamp": "2025-07-09T22:56:46Z",
+    "updatedAt": "2025-07-09T22:56:58.850993Z",
+    "updatedSlot": 82940229,
+    "writeVersion": 50592566068,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "9RryNMhAVJpAwAGjCAMKbbTFwgjapqPkzpGMfTQhEjf8",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/TIA/logo.svg",
+      "name": "Celestia",
+      "symbol": "TIA",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "1.6874597001571132",
+    "tvlUsdc": "114.0686292483966699425220409560",
+    "yieldOverTvl": "0.00007870852011773600",
+    "tokenBalanceA": "33459709",
+    "tokenBalanceB": "58458063",
+    "stats": {
+      "24h": {
+        "volume": "8.97817300",
+        "fees": "0.008978173000",
+        "rewards": null,
+        "yieldOverTvl": "0.00007870852011773600"
+      },
+      "7d": {
+        "volume": "157.578778876473",
+        "fees": "0.1575787788764730",
+        "rewards": null,
+        "yieldOverTvl": "0.0013814383491304"
+      },
+      "30d": {
+        "volume": "709.482644206101",
+        "fees": "0.7094826442061010",
+        "rewards": null,
+        "yieldOverTvl": "0.00621978758648117000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 8,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 2.8729,
+    "apy": 2.9144
+  },
+  {
+    "address": "FBYkTMQHngMESucCJktm5NbVwrcgbYLNdsf9PdwCPZjV",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 64,
+    "tickSpacingSeed": [
+      64,
+      0
+    ],
+    "feeRate": 6500,
+    "protocolFeeRate": 1300,
+    "liquidity": "7241322537",
+    "sqrtPrice": "4343186211541543288",
+    "tickCurrentIndex": -28928,
+    "protocolFeeOwedA": "19908722",
+    "protocolFeeOwedB": "1068226",
+    "tokenMintA": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+    "tokenVaultA": "GnY3dXPAVWiARw2VdxozxHaGJC2exsGM3kctaa2sESwW",
+    "feeGrowthGlobalA": "2912159939599789531",
+    "tokenMintB": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+    "tokenVaultB": "DAA9vtSXeXfjpJp84iqhZymeu5Gs36h7Vv6x2SXohxNL",
+    "feeGrowthGlobalB": "194152654908438996",
+    "rewardLastUpdatedTimestamp": "2025-07-10T08:46:39Z",
+    "updatedAt": "2025-07-10T08:46:51.882838Z",
+    "updatedSlot": 83038596,
+    "writeVersion": 50605154916,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/github/explore/14191328e15689ba52d5c10e18b43417bf79b2ef/topics/solana/solana.png",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/06833c4417faafd198ef8cf904612c721e5d96db/deployments/warp_routes/tETH/logo.svg",
+      "name": "Turbo ETH",
+      "symbol": "tETH",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.05543415792833982757",
+    "tvlUsdc": "6798.1426440662006559195619290700",
+    "yieldOverTvl": "0.00007618010156093400",
+    "tokenBalanceA": "22218875025",
+    "tokenBalanceB": "1152933086",
+    "stats": {
+      "24h": {
+        "volume": "79.6743380077969000",
+        "fees": "0.5178831970506800",
+        "rewards": null,
+        "yieldOverTvl": "0.00007618010156093400"
+      },
+      "7d": {
+        "volume": "345.006867304426",
+        "fees": "2.2425446374787700",
+        "rewards": null,
+        "yieldOverTvl": "0.00032987607864277300"
+      },
+      "30d": {
+        "volume": "3556.884946804500",
+        "fees": "23.1197521542293000",
+        "rewards": null,
+        "yieldOverTvl": "0.00340089247383026000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 64,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 2.7806,
+    "apy": 2.8195
+  },
+  {
+    "address": "EaEsSdtL96EEbifCVPtegKgiMa3VUnfKsdcGvpN9HV5a",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 4,
+    "tickSpacingSeed": [
+      4,
+      0
+    ],
+    "feeRate": 500,
+    "protocolFeeRate": 1300,
+    "liquidity": "5918764208",
+    "sqrtPrice": "30773629426257385049",
+    "tickCurrentIndex": 10235,
+    "protocolFeeOwedA": "502499",
+    "protocolFeeOwedB": "1313341",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "CyiymwN7efCYeFzRzGp4sxfci3gkt32nTKcaL454GkV7",
+    "feeGrowthGlobalA": "365909692359883553",
+    "tokenMintB": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultB": "75WLQmvwmtbUanZqw2LWvcU4bA4jwe2WskW6sRyuZ26x",
+    "feeGrowthGlobalB": "832218388454590058",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:17:25Z",
+    "updatedAt": "2025-07-10T09:17:37.871643Z",
+    "updatedSlot": 83043729,
+    "writeVersion": 50605822562,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "2783.0306831168983000",
+    "tvlUsdc": "20908.2944563648857216799450971000",
+    "yieldOverTvl": "0.00005733310032209720",
+    "tokenBalanceA": "3884746171",
+    "tokenBalanceB": "10109995306",
+    "stats": {
+      "24h": {
+        "volume": "2397.474687261440",
+        "fees": "1.1987373436307200",
+        "rewards": null,
+        "yieldOverTvl": "0.00005726444151766940"
+      },
+      "7d": {
+        "volume": "16238.914371489900",
+        "fees": "8.1194571857449500",
+        "rewards": null,
+        "yieldOverTvl": "0.00038833665762121700"
+      },
+      "30d": {
+        "volume": "95566.569150893200",
+        "fees": "47.7832845754466000",
+        "rewards": null,
+        "yieldOverTvl": "0.00228537457587319000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 4,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 2.0902,
+    "apy": 2.1121
+  },
+  {
+    "address": "GBPaB8DCpkBRBG3AxcGtLd1QngzL14t2FyvbB5sNbq5S",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 64,
+    "tickSpacingSeed": [
+      64,
+      0
+    ],
+    "feeRate": 6500,
+    "protocolFeeRate": 1300,
+    "liquidity": "4025564952",
+    "sqrtPrice": "77406303392121021437",
+    "tickCurrentIndex": 28685,
+    "protocolFeeOwedA": "1215789",
+    "protocolFeeOwedB": "22804838",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "DMjpTTg2czQBSjfsXRzg8fehKTWV6enhH15ib9jozSQz",
+    "feeGrowthGlobalA": "104577750115738425",
+    "tokenMintB": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+    "tokenVaultB": "d6nUNpR4SXur1R69Bub5EKau4gSgKfN8wbMBmmrv7Mz",
+    "feeGrowthGlobalB": "1547240240205415446",
+    "rewardLastUpdatedTimestamp": "2025-07-10T07:15:46Z",
+    "updatedAt": "2025-07-10T07:15:58.169064Z",
+    "updatedSlot": 83023444,
+    "writeVersion": 50603117227,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/github/explore/14191328e15689ba52d5c10e18b43417bf79b2ef/topics/solana/solana.png",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "17.6081289755023127",
+    "tvlUsdc": "8030.6511331533622851568146990600",
+    "yieldOverTvl": "0.00003553015984847030",
+    "tokenBalanceA": "993534721",
+    "tokenBalanceB": "33265956157",
+    "stats": {
+      "24h": {
+        "volume": "43.8969720689598000",
+        "fees": "0.2853303184482380",
+        "rewards": null,
+        "yieldOverTvl": "0.00003553015984847030"
+      },
+      "7d": {
+        "volume": "226.685935345141",
+        "fees": "1.4734585797434200",
+        "rewards": null,
+        "yieldOverTvl": "0.00018347934125297300"
+      },
+      "30d": {
+        "volume": "1686.094159210150",
+        "fees": "10.959612034866",
+        "rewards": null,
+        "yieldOverTvl": "0.00136472271714318000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 64,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 1.2969,
+    "apy": 1.3053
+  },
+  {
+    "address": "AKpBaDUVvuzSWjRQHAYJ8nMSv2c3pCFPg4rUaFebVNYW",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "235166106",
+    "sqrtPrice": "21430206891041372791",
+    "tickCurrentIndex": 2998,
+    "protocolFeeOwedA": "770595",
+    "protocolFeeOwedB": "868440",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "FfWSpnL5cF1jyoCnUNqJ53MLys4cEzsV3P8cQa7uJfXN",
+    "feeGrowthGlobalA": "6007910721431179594",
+    "tokenMintB": "2tGbYEm4nuPFyS6zjDTELzEhvVKizgKewi6xT7AaSKzn",
+    "tokenVaultB": "BnV7GXaArdHQd21gkSK8a15Tmv4uRLJyjvJJo7eBHYBR",
+    "feeGrowthGlobalB": "5650104430070914368",
+    "rewardLastUpdatedTimestamp": "2025-07-10T07:12:22Z",
+    "updatedAt": "2025-07-10T07:12:34.159009Z",
+    "updatedSlot": 83022878,
+    "writeVersion": 50603044636,
+    "hasWarning": false,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "2tGbYEm4nuPFyS6zjDTELzEhvVKizgKewi6xT7AaSKzn",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/ORCA/logo.svg",
+      "name": "Orca",
+      "symbol": "ORCA",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "1349.6255229103323000",
+    "tvlUsdc": "1215.6724437560775356600659945512",
+    "yieldOverTvl": "0.00003009798948810780",
+    "tokenBalanceA": "224182922",
+    "tokenBalanceB": "292592936",
+    "stats": {
+      "24h": {
+        "volume": "3.6589296433152800",
+        "fees": "0.0365892964331528",
+        "rewards": null,
+        "yieldOverTvl": "0.00003009798948810780"
+      },
+      "7d": {
+        "volume": "30.7489389705872000",
+        "fees": "0.3074893897058720",
+        "rewards": null,
+        "yieldOverTvl": "0.00025293769821401800"
+      },
+      "30d": {
+        "volume": "1080.342812252020",
+        "fees": "10.8034281225202000",
+        "rewards": null,
+        "yieldOverTvl": "0.00888679197921169000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 1.0986,
+    "apy": 1.1046
+  },
+  {
+    "address": "2mC4heoc1wYAZSfwE3t96ah2fknj3JfAxtbe3MtR9PU5",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 32,
+    "tickSpacingSeed": [
+      32,
+      0
+    ],
+    "feeRate": 3000,
+    "protocolFeeRate": 1300,
+    "liquidity": "13012955902228",
+    "sqrtPrice": "18121489668134377615530",
+    "tickCurrentIndex": 137806,
+    "protocolFeeOwedA": "531380",
+    "protocolFeeOwedB": "2051502260243",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "5kF8kwX3nxEH7CCHnCoY2tPGorwnHh9jMcHcfCQA54ZF",
+    "feeGrowthGlobalA": "83526207288826",
+    "tokenMintB": "HP5ksEQBkX5UZXxLThvF24TEh5ta9AUB8TLA1YSXKzDs",
+    "tokenVaultB": "EKDrx34sSYK772pYYjbDZJPiSyARTtu3tv6orQuGfViY",
+    "feeGrowthGlobalB": "49595088350874418991",
+    "rewardLastUpdatedTimestamp": "2025-07-10T07:52:05Z",
+    "updatedAt": "2025-07-10T07:52:17.659200Z",
+    "updatedSlot": 83029500,
+    "writeVersion": 50603939099,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "HP5ksEQBkX5UZXxLThvF24TEh5ta9AUB8TLA1YSXKzDs",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://raw.githubusercontent.com/Hydrogen-Labs/neptune-token-mint/refs/heads/main/npt.png",
+      "name": "Neptune Protocol Token",
+      "symbol": "NPT",
+      "decimals": 9,
+      "tags": []
+    },
+    "price": "965046.7368137211565582",
+    "tvlUsdc": "73566.9304841962542973274180116957",
+    "yieldOverTvl": "0.00002893752865361450",
+    "tokenBalanceA": "13305750566",
+    "tokenBalanceB": "12825648044613430",
+    "stats": {
+      "24h": {
+        "volume": "709.615052948298",
+        "fees": "2.1288451588448900",
+        "rewards": "0",
+        "yieldOverTvl": "0.00002893752865361450"
+      },
+      "7d": {
+        "volume": "1841.344747993520",
+        "fees": "5.5240342439805700",
+        "rewards": "0",
+        "yieldOverTvl": "0.00007508855144047710"
+      },
+      "30d": {
+        "volume": "14267.384062773500",
+        "fees": "42.8021521883206000",
+        "rewards": "0",
+        "yieldOverTvl": "0.00058181239731777900"
+      }
+    },
+    "rewards": [
+      {
+        "mint": "2tGbYEm4nuPFyS6zjDTELzEhvVKizgKewi6xT7AaSKzn",
+        "vault": "DN6HDmyNBfJ5BxwSjZxwUsfhFQEMjqC1g4pjknX8LnBD",
+        "authority": "DjDsi34mSB66p2nhBL6YvhbcLtZbkGfNybFeLDjJqxJW",
+        "emissions_per_second_x64": "0",
+        "growth_global_x64": "747110213119008",
+        "active": false,
+        "emissionsPerSecond": "0"
+      },
+      {
+        "mint": "HP5ksEQBkX5UZXxLThvF24TEh5ta9AUB8TLA1YSXKzDs",
+        "vault": "5mKg8zuU2Be7rySUgps4xHknBPiS9YsBkgPK9pAvTr3a",
+        "authority": "DjDsi34mSB66p2nhBL6YvhbcLtZbkGfNybFeLDjJqxJW",
+        "emissions_per_second_x64": "0",
+        "growth_global_x64": "50557550940393252751",
+        "active": false,
+        "emissionsPerSecond": "0"
+      }
+    ],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 1.0562,
+    "apy": 1.0618
+  },
+  {
+    "address": "CmbDr3XSqxQfvMznEXbffXnjUXRPENThgd5VfgUnXKSx",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      253
+    ],
+    "tickSpacing": 256,
+    "tickSpacingSeed": [
+      0,
+      1
+    ],
+    "feeRate": 20000,
+    "protocolFeeRate": 1300,
+    "liquidity": "93249810",
+    "sqrtPrice": "30605273126118808617",
+    "tickCurrentIndex": 10126,
+    "protocolFeeOwedA": "596854",
+    "protocolFeeOwedB": "1462119",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "Aoq6W7Be7ZyV5GYvH4hPC2PHs1ax5U8qmHv4eLuiq5VR",
+    "feeGrowthGlobalA": "560966763903425250",
+    "tokenMintB": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultB": "7hgSX6QUQ3BaxdPj8PLcPa5Jmp7AUrvv4dm3ABQeMfGh",
+    "feeGrowthGlobalB": "1428965442775139073",
+    "rewardLastUpdatedTimestamp": "2025-07-10T07:17:41Z",
+    "updatedAt": "2025-07-10T07:17:53.659608Z",
+    "updatedSlot": 83023764,
+    "writeVersion": 50603163637,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "2752.6631826384349000",
+    "tvlUsdc": "3593.2106576511012305205968625000",
+    "yieldOverTvl": "0.00002839274086123030",
+    "tokenBalanceA": "1283706189",
+    "tokenBalanceB": "24935450",
+    "stats": {
+      "24h": {
+        "volume": "5.1010549531249300",
+        "fees": "0.1020210990624990",
+        "rewards": null,
+        "yieldOverTvl": "0.00002839274086123030"
+      },
+      "7d": {
+        "volume": "8.2761804937642700",
+        "fees": "0.1655236098752850",
+        "rewards": null,
+        "yieldOverTvl": "0.00004606565705320740"
+      },
+      "30d": {
+        "volume": "348.022638028265",
+        "fees": "6.9604527605652900",
+        "rewards": null,
+        "yieldOverTvl": "0.0019371123554207"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 256,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 1.0363,
+    "apy": 1.0417
+  },
+  {
+    "address": "ELPCFnEXj1efKE8uqD6AYzYdyhVwQbtqkPm3oyEQeYrR",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 4,
+    "tickSpacingSeed": [
+      4,
+      0
+    ],
+    "feeRate": 500,
+    "protocolFeeRate": 1300,
+    "liquidity": "30931366016",
+    "sqrtPrice": "11127150756426267",
+    "tickCurrentIndex": -148273,
+    "protocolFeeOwedA": "10338778453",
+    "protocolFeeOwedB": "8670",
+    "tokenMintA": "LaihKXA47apnS599tyEyasY2REfEzBNe4heunANhsMx",
+    "tokenVaultA": "CHJWzKCuZeviUeNgMe6MuuLzpVjraffTu2WaL3SLKezC",
+    "feeGrowthGlobalA": "151845753339937306660",
+    "tokenMintB": "So11111111111111111111111111111111111111112",
+    "tokenVaultB": "7RecVJR2nNQ8FhzkraWgUzTtwru8z4y6GeBG9reBLAPa",
+    "feeGrowthGlobalB": "225222267221078",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:00:57Z",
+    "updatedAt": "2025-07-10T09:01:09.872354Z",
+    "updatedSlot": 83040982,
+    "writeVersion": 50605465442,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "LaihKXA47apnS599tyEyasY2REfEzBNe4heunANhsMx",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://jbevm2tvx2k3a5ozok3ahhhtri6mwrpv4tmqqqoe6qsxykik22uq.arweave.net/SElWanW-lbB12XK2A5zzijzLRfXk2QhBxPQlfCkK1qk",
+      "name": "Laika",
+      "symbol": "LAIKA",
+      "decimals": 5,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "price": "0.0000000000363855127365458200",
+    "tvlUsdc": "102.8902967033399493226035158665",
+    "yieldOverTvl": "0.00001643998979449270",
+    "tokenBalanceA": "51530441085093",
+    "tokenBalanceB": "19012082",
+    "stats": {
+      "24h": {
+        "volume": "3.3830308555104800",
+        "fees": "0.00169151542775524000",
+        "rewards": null,
+        "yieldOverTvl": "0.00001643998979449270"
+      },
+      "7d": {
+        "volume": "108.453952597968",
+        "fees": "0.0542269762989841",
+        "rewards": null,
+        "yieldOverTvl": "0.00052703683473024500"
+      },
+      "30d": {
+        "volume": "294.694620735574",
+        "fees": "0.1473473103677870",
+        "rewards": null,
+        "yieldOverTvl": "0.00143208169369584000"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 4,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 0.6001,
+    "apy": 0.6019
+  },
+  {
+    "address": "4Yvy5btfQqMkQwC4XEvZ7UV7f76fGXFxr6CyGyd44Jc6",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 64,
+    "tickSpacingSeed": [
+      64,
+      0
+    ],
+    "feeRate": 6500,
+    "protocolFeeRate": 1300,
+    "liquidity": "20672087988",
+    "sqrtPrice": "18289199977806233764",
+    "tickCurrentIndex": -172,
+    "protocolFeeOwedA": "160134",
+    "protocolFeeOwedB": "95543",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "AAounsXhpRSLqqeF7FrQbTvtKtXKzr4xjqEMKFVzfjKi",
+    "feeGrowthGlobalA": "84531456253857400",
+    "tokenMintB": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+    "tokenVaultB": "H78Sc9Qq6x9k42DvasxUzTV1LVch58dAbqSSyADjQcyf",
+    "feeGrowthGlobalB": "57061743001075185",
+    "rewardLastUpdatedTimestamp": "2025-07-09T19:56:11Z",
+    "updatedAt": "2025-07-09T19:56:23.351133Z",
+    "updatedSlot": 82910116,
+    "writeVersion": 50588457229,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/06833c4417faafd198ef8cf904612c721e5d96db/deployments/warp_routes/tETH/logo.svg",
+      "name": "Turbo ETH",
+      "symbol": "tETH",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.98299197473815737720",
+    "tvlUsdc": "6062.3760939088966312372044486000",
+    "yieldOverTvl": "0.00001565834428440110",
+    "tokenBalanceA": "1080997856",
+    "tokenBalanceB": "1075099063",
+    "stats": {
+      "24h": {
+        "volume": "14.6041187784536000",
+        "fees": "0.0949267720599485",
+        "rewards": null,
+        "yieldOverTvl": "0.00001565834428440110"
+      },
+      "7d": {
+        "volume": "601.782470075549",
+        "fees": "3.9115860554910700",
+        "rewards": null,
+        "yieldOverTvl": "0.0006452232581580"
+      },
+      "30d": {
+        "volume": "739.285848089199",
+        "fees": "4.8053580125797900",
+        "rewards": null,
+        "yieldOverTvl": "0.00079265257353596400"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 64,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 0.5715,
+    "apy": 0.5732
+  },
+  {
+    "address": "2y5w8GgBx2kWev4hy9Su7M2ik1y4cH487RRJZm7Mv3da",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 4,
+    "tickSpacingSeed": [
+      4,
+      0
+    ],
+    "feeRate": 500,
+    "protocolFeeRate": 1300,
+    "liquidity": "13344399591760",
+    "sqrtPrice": "570750878106141154487",
+    "tickCurrentIndex": 68644,
+    "protocolFeeOwedA": "3312004",
+    "protocolFeeOwedB": "3038027961",
+    "tokenMintA": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultA": "D8dtM7UJCXDz3fPzREPP2TfhafZrdeN1Rfk38a7dsK6q",
+    "feeGrowthGlobalA": "1145049932991832",
+    "tokenMintB": "FATF66HHhz8Yf2zxMXZXjmzu8NFArwtCJGEsj7rHC8i4",
+    "tokenVaultB": "AtbZgPDz2LSbLaHw2gfLARa1GVRwg8HBrhWWheJjQMpx",
+    "feeGrowthGlobalB": "1050256342155997319",
+    "rewardLastUpdatedTimestamp": "2025-07-10T07:52:18Z",
+    "updatedAt": "2025-07-10T07:52:31.158911Z",
+    "updatedSlot": 83029538,
+    "writeVersion": 50603946422,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "FATF66HHhz8Yf2zxMXZXjmzu8NFArwtCJGEsj7rHC8i4",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://raw.githubusercontent.com/Hydrogen-Labs/neptune-token-mint/refs/heads/main/usdn.png",
+      "name": "Neptune USD",
+      "symbol": "USDN",
+      "decimals": 9,
+      "tags": []
+    },
+    "price": "0.95731250433736931040",
+    "tvlUsdc": "35703.7009521049817617521288817627",
+    "yieldOverTvl": "0.00001487749379854370",
+    "tokenBalanceA": "21343805571",
+    "tokenBalanceB": "13761971217953",
+    "stats": {
+      "24h": {
+        "volume": "1062.36317900",
+        "fees": "0.531181589500",
+        "rewards": "0",
+        "yieldOverTvl": "0.00001487749379854370"
+      },
+      "7d": {
+        "volume": "13520.051476083800",
+        "fees": "6.7600257380419100",
+        "rewards": "0",
+        "yieldOverTvl": "0.00018933683505556500"
+      },
+      "30d": {
+        "volume": "50113.681392646600",
+        "fees": "25.0568406963233000",
+        "rewards": "0",
+        "yieldOverTvl": "0.00070179953416974900"
+      }
+    },
+    "rewards": [
+      {
+        "mint": "HP5ksEQBkX5UZXxLThvF24TEh5ta9AUB8TLA1YSXKzDs",
+        "vault": "HevVofaVhx5vt6AkTpuUTszBydoaCcBmpR5rDQrCfEPV",
+        "authority": "DjDsi34mSB66p2nhBL6YvhbcLtZbkGfNybFeLDjJqxJW",
+        "emissions_per_second_x64": "0",
+        "growth_global_x64": "147194371258917283709",
+        "active": false,
+        "emissionsPerSecond": "0"
+      }
+    ],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 4,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 0.543,
+    "apy": 0.5445
+  },
+  {
+    "address": "dYfBULV5KQfMayPr8HEJLVdpYPpw9Z9E9ejch4JLS31",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 8,
+    "tickSpacingSeed": [
+      8,
+      0
+    ],
+    "feeRate": 1000,
+    "protocolFeeRate": 1300,
+    "liquidity": "23758755040",
+    "sqrtPrice": "20260990424545841611",
+    "tickCurrentIndex": 1876,
+    "protocolFeeOwedA": "6841312",
+    "protocolFeeOwedB": "8938269",
+    "tokenMintA": "8jN7xMDqJucigQphWHvqAPQPAmk7VJKKsqLmgCkE7XzP",
+    "tokenVaultA": "82hrQBUFvB84gNf9TowwhDd27Vyj2inK8DCH1i2DTkyr",
+    "feeGrowthGlobalA": "5684392531359032",
+    "tokenMintB": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+    "tokenVaultB": "G9GW9P2zZnWbfDbCWCnY1ivhB9w5FibNZinWnodGiQH1",
+    "feeGrowthGlobalB": "6929420059385293",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:06:25Z",
+    "updatedAt": "2025-07-10T09:06:37.872214Z",
+    "updatedSlot": 83041896,
+    "writeVersion": 50605583348,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "8jN7xMDqJucigQphWHvqAPQPAmk7VJKKsqLmgCkE7XzP",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/kySOL/logo.svg",
+      "name": "Kyros Restaked SOL",
+      "symbol": "kySOL",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/github/explore/14191328e15689ba52d5c10e18b43417bf79b2ef/topics/solana/solana.png",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "1.2063738027275332",
+    "tvlUsdc": "185.6694707172496295201329678600",
+    "yieldOverTvl": "0.00001486583685069920",
+    "tokenBalanceA": "954064544",
+    "tokenBalanceB": "1172238416",
+    "stats": {
+      "24h": {
+        "volume": "2.7601320598383100",
+        "fees": "0.00276013205983831000",
+        "rewards": null,
+        "yieldOverTvl": "0.00001486583685069920"
+      },
+      "7d": {
+        "volume": "638.867156978247",
+        "fees": "0.6388671569782470",
+        "rewards": null,
+        "yieldOverTvl": "0.00344088424720701000"
+      },
+      "30d": {
+        "volume": "11787.096228657700",
+        "fees": "11.7870962286577000",
+        "rewards": null,
+        "yieldOverTvl": "0.0634842991856635"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 8,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 0.5426,
+    "apy": 0.5441
+  },
+  {
+    "address": "44MPMudfkenfGo6CfNVzcaKV89qR4p6BFuaKGJ4XbvZm",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 1,
+    "tickSpacingSeed": [
+      1,
+      0
+    ],
+    "feeRate": 100,
+    "protocolFeeRate": 1300,
+    "liquidity": "10360832912464",
+    "sqrtPrice": "18443861565570182625",
+    "tickCurrentIndex": -4,
+    "protocolFeeOwedA": "3404895",
+    "protocolFeeOwedB": "3654632",
+    "tokenMintA": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultA": "ER7bV4hATkZEYwstpL3jQpLimyWQ13i2zdJjLyzxqjDo",
+    "feeGrowthGlobalA": "401957481380654",
+    "tokenMintB": "CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm",
+    "tokenVaultB": "9XYrZhWPi71fA39dvDYLWAV71aqP5sJSzgdRN9BVJcDF",
+    "feeGrowthGlobalB": "400852845675163",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:14:03Z",
+    "updatedAt": "2025-07-10T09:14:15.382602Z",
+    "updatedSlot": 83043165,
+    "writeVersion": 50605752424,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/USDT/logo.svg",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.99968750225883381732",
+    "tvlUsdc": "103270.0497077516541122521135065868",
+    "yieldOverTvl": "0.00001286088251098690",
+    "tokenBalanceA": "53902921344",
+    "tokenBalanceB": "49357659946",
+    "stats": {
+      "24h": {
+        "volume": "13281.439761951700",
+        "fees": "1.3281439761951700",
+        "rewards": null,
+        "yieldOverTvl": "0.00001286088251098690"
+      },
+      "7d": {
+        "volume": "201691.451919896000",
+        "fees": "20.1691451919896000",
+        "rewards": null,
+        "yieldOverTvl": "0.00019530488509560200"
+      },
+      "30d": {
+        "volume": "1011469.67391968",
+        "fees": "101.146967391968",
+        "rewards": null,
+        "yieldOverTvl": "0.00097944145159422100"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 1,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 0.4694,
+    "apy": 0.4705
+  },
+  {
+    "address": "9F2hVD3CMey1qKSWFQ9NpPcGPdhsHyvqNUsuk6mmw5X8",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      254
+    ],
+    "tickSpacing": 32,
+    "tickSpacingSeed": [
+      32,
+      0
+    ],
+    "feeRate": 3000,
+    "protocolFeeRate": 1300,
+    "liquidity": "77362682388",
+    "sqrtPrice": "66246988023473399792",
+    "tickCurrentIndex": 25571,
+    "protocolFeeOwedA": "2797006",
+    "protocolFeeOwedB": "27620814",
+    "tokenMintA": "2tGbYEm4nuPFyS6zjDTELzEhvVKizgKewi6xT7AaSKzn",
+    "tokenVaultA": "qY7SVh3qRZYKLdKKuDxcmb7ptJUFeAWPqspcaeSVxQR",
+    "feeGrowthGlobalA": "171704569414213793",
+    "tokenMintB": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+    "tokenVaultB": "6jXukbXEH7G1L3Y2jTL37JLiCztXdxQ8xDzPxwn71WbP",
+    "feeGrowthGlobalB": "3103210483114093243",
+    "rewardLastUpdatedTimestamp": "2025-07-10T08:53:45Z",
+    "updatedAt": "2025-07-10T08:53:57.872101Z",
+    "updatedSlot": 83039780,
+    "writeVersion": 50605310581,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "2tGbYEm4nuPFyS6zjDTELzEhvVKizgKewi6xT7AaSKzn",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/ORCA/logo.svg",
+      "name": "Orca",
+      "symbol": "ORCA",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "BeRUj3h7BqkbdfFU7FBNYbodgf8GCHodzKvF9aVjNNfL",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/github/explore/14191328e15689ba52d5c10e18b43417bf79b2ef/topics/solana/solana.png",
+      "name": "Solana",
+      "symbol": "SOL",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.01289712265108904240",
+    "tvlUsdc": "91316.9610917482393132425597644005",
+    "yieldOverTvl": "0.00001108116995633840",
+    "tokenBalanceA": "22343369759",
+    "tokenBalanceB": "290868145391",
+    "stats": {
+      "24h": {
+        "volume": "337.299588584667",
+        "fees": "1.011898765754",
+        "rewards": "0",
+        "yieldOverTvl": "0.00001108116995633840"
+      },
+      "7d": {
+        "volume": "3107.714344074810",
+        "fees": "9.3231430322244400",
+        "rewards": "0",
+        "yieldOverTvl": "0.00010209651001041600"
+      },
+      "30d": {
+        "volume": "26923.518811315800",
+        "fees": "80.7705564339474000",
+        "rewards": "0",
+        "yieldOverTvl": "0.00088450771322531600"
+      }
+    },
+    "rewards": [
+      {
+        "mint": "2tGbYEm4nuPFyS6zjDTELzEhvVKizgKewi6xT7AaSKzn",
+        "vault": "24XiuBCrioZzsC6BPcUj65zAr3qN1yt8uZqoQasZ8Ujj",
+        "authority": "DjDsi34mSB66p2nhBL6YvhbcLtZbkGfNybFeLDjJqxJW",
+        "emissions_per_second_x64": "0",
+        "growth_global_x64": "217438248579764",
+        "active": false,
+        "emissionsPerSecond": "0"
+      }
+    ],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 0.4045,
+    "apy": 0.4053
+  },
+  {
+    "address": "BqinHKam4jX8NUYbj2LsMnBYbqFnPvggiyx4PBHPkhSo",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 1,
+    "tickSpacingSeed": [
+      1,
+      0
+    ],
+    "feeRate": 100,
+    "protocolFeeRate": 1300,
+    "liquidity": "26509234442766",
+    "sqrtPrice": "18236038302294664139",
+    "tickCurrentIndex": -230,
+    "protocolFeeOwedA": "3050562",
+    "protocolFeeOwedB": "2881444",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "GD9K5VL7wXP6bXsTPBXzzP7Ht4r5C5962FF2SiQehcMk",
+    "feeGrowthGlobalA": "2216389792087624",
+    "tokenMintB": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+    "tokenVaultB": "7MCuZWmUjkimEEgasxYy1Zc8S1T1fhGjuuVcQcRToChD",
+    "feeGrowthGlobalB": "2151142613309397",
+    "rewardLastUpdatedTimestamp": "2025-07-10T09:18:16Z",
+    "updatedAt": "2025-07-10T09:18:29.371585Z",
+    "updatedSlot": 83043872,
+    "writeVersion": 50605843458,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "GU7NS9xCwgNPiAdJ69iusFrRfawjDDPjeMBovhV1d4kn",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/06833c4417faafd198ef8cf904612c721e5d96db/deployments/warp_routes/tETH/logo.svg",
+      "name": "Turbo ETH",
+      "symbol": "tETH",
+      "decimals": 9,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.97728570531550277406",
+    "tvlUsdc": "4510308.8295340690752103199331433000",
+    "yieldOverTvl": "0.00000971930530336255",
+    "tokenBalanceA": "951151442413",
+    "tokenBalanceB": "656271695711",
+    "stats": {
+      "24h": {
+        "volume": "438370.685266934000",
+        "fees": "43.8370685266934000",
+        "rewards": null,
+        "yieldOverTvl": "0.00000970109804955451"
+      },
+      "7d": {
+        "volume": "5774782.67606747",
+        "fees": "577.478267606747",
+        "rewards": null,
+        "yieldOverTvl": "0.00012803519435860900"
+      },
+      "30d": {
+        "volume": "8698194.60518176",
+        "fees": "869.819460518176",
+        "rewards": null,
+        "yieldOverTvl": "0.00019285141957962800"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [
+      {
+        "name": "Whirlpool-Locked",
+        "locked_percentage": "0.000000121",
+        "lockedPercentage": "0.000000121"
+      }
+    ],
+    "feeTierIndex": 1,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 0.3541,
+    "apy": 0.3547
+  },
+  {
+    "address": "3TruHmB3rNwqUxNwNP5KJLKakmSW5wJ5YzfsfpjaKfUz",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      255
+    ],
+    "tickSpacing": 2,
+    "tickSpacingSeed": [
+      2,
+      0
+    ],
+    "feeRate": 200,
+    "protocolFeeRate": 1300,
+    "liquidity": "184309768648",
+    "sqrtPrice": "18444610317829282461",
+    "tickCurrentIndex": -3,
+    "protocolFeeOwedA": "6372",
+    "protocolFeeOwedB": "6106",
+    "tokenMintA": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+    "tokenVaultA": "65E7dKWkn4rND4bqxcdZf9VPeazihjwwKAVbwXw9P5t2",
+    "feeGrowthGlobalA": "220483073602738",
+    "tokenMintB": "CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm",
+    "tokenVaultB": "AhDRZR97L5D1gM1kNZWdpeVUKGj74QSkyQTxiCv9NQzi",
+    "feeGrowthGlobalB": "218196272009163",
+    "rewardLastUpdatedTimestamp": "2025-07-10T04:31:06Z",
+    "updatedAt": "2025-07-10T04:31:19.350746Z",
+    "updatedSlot": 82995984,
+    "writeVersion": 50600053702,
+    "hasWarning": false,
+    "poolType": "whirlpool",
+    "tokenA": {
+      "address": "AKEWE7Bgh87GPp171b4cJPSSZfmZwQ3KaqYqXoKLNAEE",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "tokenB": {
+      "address": "CEBP3CqAbW4zdZA57H2wfaSG1QNdzQ72GiQEbQXyW9Tm",
+      "programId": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "imageUrl": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/USDT/logo.svg",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "tags": [
+        "metadataPointer",
+        "tokenMetadata"
+      ]
+    },
+    "price": "0.99976867110371802333",
+    "tvlUsdc": "2099.7956514491896007686690276494",
+    "yieldOverTvl": "0.00000665490386664806",
+    "tokenBalanceA": "1089459413",
+    "tokenBalanceB": "1010142460",
+    "stats": {
+      "24h": {
+        "volume": "69.86969100",
+        "fees": "0.013973938200",
+        "rewards": null,
+        "yieldOverTvl": "0.00000665490386664806"
+      },
+      "7d": {
+        "volume": "256.739167820377",
+        "fees": "0.0513478335640753",
+        "rewards": null,
+        "yieldOverTvl": "0.00002445372888006370"
+      },
+      "30d": {
+        "volume": "426.606565512173",
+        "fees": "0.0853213131024347",
+        "rewards": null,
+        "yieldOverTvl": "0.00004063315067994810"
+      }
+    },
+    "rewards": [],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 2,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 0.2429,
+    "apy": 0.2432
+  },
+  {
+    "address": "HKWEMPBY4zWn8x9ascmKWMGDhcr7WRwNrhAHyvTe1PJT",
+    "whirlpoolsConfig": "FVG4oDbGv16hqTUbovjyGmtYikn6UBEnazz6RVDMEFwv",
+    "whirlpoolBump": [
+      253
+    ],
+    "tickSpacing": 32896,
+    "tickSpacingSeed": [
+      128,
+      128
+    ],
+    "feeRate": 10000,
+    "protocolFeeRate": 1300,
+    "liquidity": "3164615008000",
+    "sqrtPrice": "12889991882184603495741",
+    "tickCurrentIndex": 130992,
+    "protocolFeeOwedA": "313006",
+    "protocolFeeOwedB": "1075469470345",
+    "tokenMintA": "So11111111111111111111111111111111111111112",
+    "tokenVaultA": "EikJLhTcsUy6ZkBR8WCTDWS3tMRopMoWqiYiBSLCiQSQ",
+    "feeGrowthGlobalA": "11453480075697070",
+    "tokenMintB": "HgD4Dc6qYCj3UanMDiuC4qANheeTsAvk6DY91B3F8gnL",
+    "tokenVaultB": "2TKuGTVwiDSsW1tqUiTLonjd9gHvUjsTNa4cnQ3RFGCW",
+    "feeGrowthGlobalB": "830391379860916254142",
+    "rewardLastUpdatedTimestamp": "2025-07-10T07:45:57Z",
+    "updatedAt": "2025-07-10T07:46:10.159329Z",
+    "updatedSlot": 83028479,
+    "writeVersion": 50603802178,
+    "hasWarning": false,
+    "poolType": "splashpool",
+    "tokenA": {
+      "address": "So11111111111111111111111111111111111111112",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 9,
+      "tags": []
+    },
+    "tokenB": {
+      "address": "HgD4Dc6qYCj3UanMDiuC4qANheeTsAvk6DY91B3F8gnL",
+      "programId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "imageUrl": "https://raw.githubusercontent.com/moon-meme/assets/main/icon.png",
+      "name": "MoonCoin",
+      "symbol": "MOON",
+      "decimals": 5,
+      "tags": []
+    },
+    "price": "4882765223.076894523646",
+    "tvlUsdc": "25087.3278775415800001676202102328",
+    "yieldOverTvl": "0.00000268608320779782",
+    "tokenBalanceA": "4594065754",
+    "tokenBalanceB": "2229805309172891",
+    "stats": {
+      "24h": {
+        "volume": "6.7386650140382600",
+        "fees": "0.0673866501403826",
+        "rewards": "0",
+        "yieldOverTvl": "0.00000268608320779782"
+      },
+      "7d": {
+        "volume": "2599.488835131160",
+        "fees": "25.9948883513116000",
+        "rewards": "0",
+        "yieldOverTvl": "0.00103617605183781000"
+      },
+      "30d": {
+        "volume": "4644.102325138760",
+        "fees": "46.4410232513876000",
+        "rewards": "0",
+        "yieldOverTvl": "0.00185117456422938000"
+      }
+    },
+    "rewards": [
+      {
+        "mint": "HgD4Dc6qYCj3UanMDiuC4qANheeTsAvk6DY91B3F8gnL",
+        "vault": "F9VwcvPCmnoES1F6SkTwneLNMJG2UWW2C1vcX1GWv7AR",
+        "authority": "DjDsi34mSB66p2nhBL6YvhbcLtZbkGfNybFeLDjJqxJW",
+        "emissions_per_second_x64": "0",
+        "growth_global_x64": "0",
+        "active": false,
+        "emissionsPerSecond": "0"
+      }
+    ],
+    "lockedLiquidityPercent": [],
+    "feeTierIndex": 32896,
+    "adaptiveFeeEnabled": false,
+    "adaptiveFee": null,
+    "tradeEnableTimestamp": "1970-01-01T00:00:00Z",
+    "apr": 0.098,
+    "apy": 0.0981
+  }
+]

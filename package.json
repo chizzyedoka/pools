@@ -9,23 +9,28 @@
     "start": "ts-node dist/index.js",
     "dev": "ts-node src/index.ts",
     "discover": "ts-node src/pool-discovery.ts",
-    "discover-enhanced": "ts-node src/enhanced-pool-discovery.ts",
-    "discover-modular": "ts-node src/pool-discovery-modular.ts"
+    "eclipse-apr": "ts-node getEclipseAPR.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/bn.js": "^5.2.0",
     "ts-node": "^10.9.2"
   },
   "dependencies": {
     "@deserialize/swap-sdk": "^1.5.22",
+    "@invariant-labs/sdk-eclipse": "^0.0.130",
+    "@metaplex-foundation/js": "^0.20.1",
     "@orca-so/whirlpools-sdk": "^0.14.0",
     "@solana/spl-token": "^0.4.13",
     "@solana/web3.js": "^1.98.2",
+    "bn.js": "^5.2.2",
     "bs58": "^6.0.0",
     "decimal.js": "^10.5.0",
     "dotenv": "^17.0.1",
+    "graphql": "^16.11.0",
+    "graphql-request": "^7.2.0",
     "typescript": "^5.8.3"
   }
 }
